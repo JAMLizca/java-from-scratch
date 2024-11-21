@@ -20,5 +20,9 @@ public class CaracteresEspeciales {
 
         // '\" agrega una comilla doble
         var cadena4 = "Hola \"Mundo";
+        
+        // \\ diagonal o barra invertida
+        var cadena5 = "Hola\\Mundo ";
+        System.out.println("cadena5 = " + cadena5);
     }
 }
