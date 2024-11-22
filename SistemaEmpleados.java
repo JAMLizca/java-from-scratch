@@ -21,8 +21,9 @@ public class SistemaEmpleados {
 
         System.out.println("\nDatos del empleado: ");
         System.out.println("\tNombre del empleado: "+nombreEmpleado);
-        System.out.println("\tEdad: "+ edadEmpleado);
-        System.out.println("\tSalario:"+ salarioEmpleado);
+        System.out.println("\tEdad: "+ edadEmpleado + "años");
+        //System.out.println("\tSalario:"+ salarioEmpleado);
+        System.out.println("\tSalario: %.3f".formatted(salarioEmpleado));
         System.out.println("\t Es jefe de departamento?"+ jefePrograma);
     }
 }
