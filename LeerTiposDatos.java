@@ -11,6 +11,8 @@ public class LeerTiposDatos {
         System.out.println("Ingresa tu altura");
         var altura = consola.nextDouble();
         System.out.println("altura = " + altura);
+        //consumir caracter salto de linea
+        consola.nextLine();
         //leer un tipo String
         System.out.println("Ingresa tu nombre");
         var nombre= consola.nextLine();
