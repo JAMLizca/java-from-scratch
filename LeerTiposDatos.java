@@ -2,18 +2,28 @@ package logica;
 import java.util.Scanner;
 public class LeerTiposDatos {
     public static void main(String[] args) {
-         //leer un tipo int
+        //leer un tipo int
         var consola = new Scanner(System.in);
         System.out.println("Ingresa tu edad =");
         var edad = consola.nextInt();
         System.out.println("edad = " + edad);
+        //leer un tipo double
+        System.out.println("Ingresa tu altura");
+        var altura = consola.nextDouble();
+        System.out.println("altura = " + altura);
+        //leer un tipo String
+        System.out.println("Ingresa tu nombre");
+        var nombre= consola.nextLine();
+        System.out.println("nombre = " + nombre);
+        
+        
 
 
-       //Analizen
+        //Analizen
         // Crear el objeto Scanner para leer datos desde la consola
-        var nombre = new Scanner(System.in);
+        // var nombre = new Scanner(System.in);
         //En el trancurso del curso se explicara ese tema que son exepciones en java
-        try {
+        /*try {
             // Solicitar al usuario que ingrese su edad
             System.out.print("Por favor, ingresa tu edad: ");
             var anio = consola.nextInt(); // Leer un número entero
@@ -28,5 +38,7 @@ public class LeerTiposDatos {
             }
         }
 
+         */
 
-
+    }
+}
