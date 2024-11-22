@@ -23,6 +23,10 @@ public class ConversionDatos {
         System.out.println("Proporciona un valor tipo flotante");
         var flotante = Float.parseFloat(nombre.nextLine());
         System.out.println("flotante = " + flotante);
+
+        //tipo double clase Double.parseDouble();
+        //tipo Boolean.parseBoolean();
         
+
     }
 }
