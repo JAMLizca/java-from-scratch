@@ -344,9 +344,10 @@ Tu nombre es: José
 
  <p>Este ejemplo utiliza el método <code>nextLine()</code> para leer texto completo. También puedes usar otros métodos como <code>nextInt()</code> para leer números.</p>
  <h1>Tipos de Entrada con la Clase <code>Scanner</code> en Java</h1>
-    <p>La clase <code>Scanner</code> nos permite leer diferentes tipos de datos del usuario. Dependiendo del tipo de dato, usamos un método específico:</p>
+  
     
    <img src="https://keepcoding.io/wp-content/uploads/2024/08/system.out_.print_-1.jpg" alt="Logo de sout" width="500">   <table border="1" cellpadding="10">
+     <p>La clase <code>Scanner</code> nos permite leer diferentes tipos de datos del usuario. Dependiendo del tipo de dato, usamos un método específico:</p>
         <thead>
             <tr>
                 <th>Método</th>
