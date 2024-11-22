@@ -27,6 +27,6 @@ public class RecetasCocinas {
         System.out.println("\nIngredientes: "+ingredientes);
         System.out.println("\nTiempo preparacion:"+ tiempoReceta   + "MINUTOS");
         System.out.println("\nDidicultad:"+ dificultadReceta);
-        
+
     }
 }
