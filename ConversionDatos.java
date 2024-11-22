@@ -26,7 +26,7 @@ public class ConversionDatos {
 
         //tipo double clase Double.parseDouble();
         //tipo Boolean.parseBoolean();
-        
+
 
     }
 }
