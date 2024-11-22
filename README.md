@@ -241,6 +241,7 @@ public class HolaMundo {
             </pre>
         </section>
 	<h1>Salida de Datos en Java</h1>
+ <img src="https://files.codingninjas.in/article_images/custom-upload-1687513940-1c85bc57.webp" alt="Logo de sout" width="500"> 
     <p>En Java, para mostrar mensajes en pantalla, usamos la clase <strong>System</strong>, que tiene el atributo <strong>out</strong> (salida). Este atributo nos permite acceder a dos métodos principales:</p>
     <ul>
         <li><strong>print()</strong>: Imprime texto sin salto de línea.</li>
@@ -285,6 +286,63 @@ Hola
 mundo
 </code>
     </pre>
+     <h1>Entrada de Datos en Java</h1>
+    <h2>Clase <code>Scanner</code></h2>
+    <p>La clase <code>Scanner</code> se usa para obtener entrada de datos del usuario y se encuentra en el paquete <code>java.util</code>. Antes de usarla, es necesario importarla.</p>
+    <h3>¿Cómo usar <code>Scanner</code>?</h3>
+    <ol>
+        <li><strong>Importar la clase Scanner:</strong>  
+        <pre>
+<code>import java.util.Scanner;</code>
+        </pre>
+        </li>
+        <li><strong>Crear un objeto Scanner:</strong>  
+        <pre>
+<code>Scanner sc = new Scanner(System.in);</code>
+        </pre>
+        Este objeto servirá para leer la entrada del usuario.</li>
+        <li><strong>Leer datos del usuario:</strong>  
+        Usamos el método <code>nextLine()</code> para leer texto ingresado por el usuario:
+        <pre>
+<code>String userName = sc.nextLine();</code>
+        </pre>
+        Aquí, lo que el usuario escriba se guardará en la variable <code>userName</code>.
+        </li>
+        <li><strong>Mostrar el dato ingresado:</strong>  
+        Finalmente, mostramos el dato con:
+        <pre>
+<code>System.out.println("Tu nombre es: " + userName);</code>
+        </pre>
+        </li>
+    </ol>
+
+<h3>Ejemplo Completo:</h3>
+    <pre>
+<code>
+import java.util.Scanner;  // Importa la clase Scanner
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);  // Crea un objeto Scanner
+
+System.out.println("Por favor, ingresa tu nombre:");  // Pide al usuario su nombre
+        String userName = sc.nextLine();  // Lee el nombre ingresado por el usuario
+
+System.out.println("Tu nombre es: " + userName);  // Muestra el nombre ingresado
+    }
+}
+</code>
+    </pre>
+    <h3>Salida del Programa:</h3>
+    <pre>
+<code>
+Por favor, ingresa tu nombre:
+> José
+Tu nombre es: José
+</code>
+    </pre>
+
+ <p>Este ejemplo utiliza el método <code>nextLine()</code> para leer texto completo. También puedes usar otros métodos como <code>nextInt()</code> para leer números.</p>
     </main>
   <footer>
         <p>&copy; 2024 Fundamentos de Java. Todos los derechos reservados.</p>
