@@ -8,10 +8,11 @@ public class LeerTiposDatos {
         var edad = consola.nextInt();
         System.out.println("edad = " + edad);
 
+
+       //Analizen
         // Crear el objeto Scanner para leer datos desde la consola
         var nombre = new Scanner(System.in);
-
-         //En el trancurso del curso se explicara ese tema que son exepciones en java
+        //En el trancurso del curso se explicara ese tema que son exepciones en java
         try {
             // Solicitar al usuario que ingrese su edad
             System.out.print("Por favor, ingresa tu edad: ");
@@ -27,5 +28,5 @@ public class LeerTiposDatos {
             }
         }
 
-    }
-}
+
+
