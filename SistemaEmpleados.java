@@ -26,4 +26,5 @@ public class SistemaEmpleados {
         System.out.println("\tSalario: %.3f".formatted(salarioEmpleado));
         System.out.println("\t Es jefe de departamento?"+ jefePrograma);
     }
+    //printf esa f es de formato
 }
