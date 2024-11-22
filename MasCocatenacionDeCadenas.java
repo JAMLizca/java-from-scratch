@@ -2,39 +2,37 @@ package logica;
 
 public class MasCocatenacionDeCadenas {
     public static void main(String[] args) {
-        //Mas formas de concatenar cadenas en java
-        //formas ya estudiada
+        // Mas formas de concatenar cadenas en java
+        // Formas ya estudiadas
         var cadena1 = "Hola";
         var cadena2 = "Mundo";
-        var cadena3 = cadena1+" "+cadena2;
+        var cadena3 = cadena1 + " " + cadena2;
 
-        //se trabajara con el metodo concat
-        // solo se puede concatenar dos valores
-
+        // Se trabajará con el método concat
+        // Solo se puede concatenar dos valores
         cadena3 = cadena1.concat(" ").concat("Mundo2");
 
-        //otro metodo para concatenar
-        //se trabaja con la clase StringBuilder (constructor de cadenas)
+        // Otro método para concatenar
+        // Se trabaja con la clase StringBuilder (constructor de cadenas)
         var cadena4 = new StringBuilder();
 
-        //llamamos el metodo append
+        // Llamamos el método append
         cadena4.append(cadena1);
         cadena4.append(" ");
         cadena4.append(cadena2);
 
-        //llamamos el metodo tosString para generar la cadena final
+        // Llamamos el método toString para generar la cadena final
         var cadena5 = cadena4.toString();
         System.out.println("cadenas concatenadas = " + cadena5);
 
-        //se trabaja con la clase StringBuffer
-        //solo cuando tenemos varios hilos"Procesos"
-
-        var cadena6 = new StringBuffer();
-        StringBuffer.append(cadena1).append(" ").append(cadena2);
-        cadena5 = StringBuffer.toString();
+        // Se trabaja con la clase StringBuffer
+        // Solo cuando tenemos varios hilos "Procesos"
+        var cadena6 = new StringBuffer(); // Instanciamos un StringBuffer
+        cadena6.append(cadena1).append(" ").append(cadena2); // Usamos el objeto cadena6
+        cadena5 = cadena6.toString(); // Convertimos a String
         System.out.println("resultado del StringBuffer = " + cadena5);
 
-        //metodo join
+        // Método join
         cadena5 = String.join(" ", cadena1, cadena2);
         System.out.println("resultado join = " + cadena5);
     }
