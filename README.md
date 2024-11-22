@@ -343,7 +343,54 @@ Tu nombre es: José
     </pre>
 
  <p>Este ejemplo utiliza el método <code>nextLine()</code> para leer texto completo. También puedes usar otros métodos como <code>nextInt()</code> para leer números.</p>
-    </main>
+ <h1>Tipos de Entrada con la Clase <code>Scanner</code> en Java</h1>
+    <p>La clase <code>Scanner</code> nos permite leer diferentes tipos de datos del usuario. Dependiendo del tipo de dato, usamos un método específico:</p>
+    
+   <img src="https://keepcoding.io/wp-content/uploads/2024/08/system.out_.print_-1.jpg" alt="Logo de sout" width="500">   <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Método</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>nextBoolean()</code></td>
+                <td>Lee un valor booleano (<code>true</code> o <code>false</code>).</td>
+            </tr>
+            <tr>
+                <td><code>nextByte()</code></td>
+                <td>Lee un valor de tipo byte (número pequeño).</td>
+            </tr>
+            <tr>
+                <td><code>nextDouble()</code></td>
+                <td>Lee un número decimal grande (<code>double</code>).</td>
+            </tr>
+            <tr>
+                <td><code>nextFloat()</code></td>
+                <td>Lee un número decimal más pequeño (<code>float</code>).</td>
+            </tr>
+            <tr>
+                <td><code>nextInt()</code></td>
+                <td>Lee un número entero.</td>
+            </tr>
+            <tr>
+                <td><code>nextLine()</code></td>
+                <td>Lee una línea completa de texto.</td>
+            </tr>
+            <tr>
+                <td><code>nextLong()</code></td>
+                <td>Lee un número entero muy grande (<code>long</code>).</td>
+            </tr>
+            <tr>
+                <td><code>nextShort()</code></td>
+                <td>Lee un número entero pequeño (<code>short</code>).</td>
+            </tr>
+        </tbody>
+    </table>
+
+<p>Por ejemplo, si necesitas leer un número entero, usas <code>nextInt()</code>. Si necesitas leer texto, usas <code>nextLine()</code>. Cada método está diseñado para capturar un tipo de dato específico.</p>
+ </main>
   <footer>
         <p>&copy; 2024 Fundamentos de Java. Todos los derechos reservados.</p>
     </footer>
