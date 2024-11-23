@@ -513,21 +513,7 @@ public class DemoVar {
 }
 </code>
     </pre>
-    <h3>¿Cuándo usar <code>var</code>?</h3>
-    <ul>
-        <li><strong>Para simplificar el código:</strong> Úsalo cuando el tipo sea evidente al leer el código.</li>
-        <li><strong>Evítalo si el tipo no es claro:</strong> Por ejemplo, si usas una operación compleja y no queda claro qué tipo tendrá la variable, es mejor declarar el tipo explícitamente.</li>
-    </ul>
-    <h3>Ventajas de <code>var</code>:</h3>
-    <ul>
-        <li>Menos escritura: No necesitas declarar explícitamente el tipo.</li>
-        <li>Más legible: Simplifica el código cuando el tipo es obvio.</li>
-    </ul>
-    <h3>Desventajas de <code>var</code>:</h3>
-    <ul>
-        <li>Menos claro en casos complejos: Si el valor es resultado de una operación complicada, puede no ser evidente el tipo.</li>
-        <li>Limitado a métodos: No puedes usarlo como atributo de clase o en declaraciones globales.</li>
-    </ul>
+    
  </main>
   <footer>
         <p>&copy; 2024 Fundamentos de Java. Todos los derechos reservados.</p>
