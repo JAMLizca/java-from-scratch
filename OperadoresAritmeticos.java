@@ -23,5 +23,41 @@ public class OperadoresAritmeticos {
         //modulo (residuo de la division) %
         resultado= a%b;
         System.out.println("Modulo = " + resultado);
+
+        //operador unario -
+        resultado= -a;
+        System.out.println("resultado -a = " + resultado);
+
+        //operadores unarios de incremento y decremento
+
+        //pre-incremento
+        a = 3;
+        resultado = ++a; //primero se incrementa el valor
+        System.out.println("resultado ++a = " + resultado);
+        System.out.println("a ya se incremento = " + a);
+
+        //Post-incremento
+        a = 3;
+        resultado = a++;//primero se usa el valor y despues se incrementa
+        System.out.println("Resultado:"+ resultado);
+        System.out.println("a++ = " + a);
+
+        //Pre-decremto}
+        b= -2;
+        resultado= --b;//primero se incrementa y despues se usa el valor
+        System.out.println(" resulotado --b= " + resultado);
+        System.out.println("--b = " + b);
+
+        //Post-decremento
+        b=-2;
+        resultado= b--;//primero se usa el valor y despues se incrementa
+        System.out.println("resultado b--= " + resultado);
+        System.out.println("b-- = " + b);
+
+        
+
+
+
+
     }
 }
