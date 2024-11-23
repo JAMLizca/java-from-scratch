@@ -19,5 +19,9 @@ public class OperadoresAritmeticos {
         //division
         resultado= a/b;
         System.out.println("Resultado division"+ " "+resultado);
+
+        //modulo (residuo de la division) %
+        resultado= a%b;
+        System.out.println("Modulo = " + resultado);
     }
 }
