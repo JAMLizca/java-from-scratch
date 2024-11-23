@@ -168,7 +168,7 @@ public class HolaMundo {
             </tr>
         </thead>
         <tbody>
-            <!-- Tipos primitivos -->
+          <!-- Tipos primitivos -->
             <tr>
                 <td rowspan="8">TIPOS PRIMITIVOS</td>
                 <td>byte</td>
@@ -234,7 +234,7 @@ public class HolaMundo {
 
   <section>
             <h2>Comentarios en Java</h2>
-            <p>Los comentarios son útiles para documentar el código y no son ejecutados por el programa. Hay tres tipos:</p>
+            <p>Los comentarios son útiles para documentar el código y no son ejecutados por el programa. Hay dos tipos:</p>
             <pre>
 // Comentario de una línea
 /* comentarios para varias lineas de codigo */
