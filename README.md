@@ -392,6 +392,7 @@ Tu nombre es: José
 
 <p>Por ejemplo, si necesitas leer un número entero, usas <code>nextInt()</code>. Si necesitas leer texto, usas <code>nextLine()</code>. Cada método está diseñado para capturar un tipo de dato específico.</p>
 <h1>Tipos de Variables en Java</h1>
+ <img src="https://oregoom.com/wp-content/uploads/2024/03/tipos-de-variables-en-java.webp" alt="Logo de sout" width="500">
     <p>Una variable es un contenedor que guarda información en un programa, y su valor puede cambiar durante la ejecución. En Java, existen diferentes tipos de variables dependiendo del tipo de datos que almacenan. Aquí explicamos los principales tipos de variables y su uso.</p>
     
 <h2>1. Variables de tipos primitivos</h2>
