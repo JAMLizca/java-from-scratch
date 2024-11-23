@@ -36,7 +36,7 @@ public class FormateoCadena {
                 \tNum. Empleado: %04d
                 \tEdad: %d
                 \tSalario: %.2f%n
-                """,nombre,numeroEmpleado,edad,salario);git init
+                """,nombre,numeroEmpleado,edad,salario);
 
 
 
