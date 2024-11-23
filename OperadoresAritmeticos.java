@@ -54,7 +54,7 @@ public class OperadoresAritmeticos {
         System.out.println("resultado b--= " + resultado);
         System.out.println("b-- = " + b);
 
-        
+
 
 
 
