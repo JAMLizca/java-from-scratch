@@ -513,6 +513,48 @@ public class DemoVar {
 }
 </code>
     </pre>
+    <h1>Variables de Tipo Referencia en Java</h1>
+    <p>
+        En Java, las <strong>variables de tipo referencia</strong> no almacenan el valor directamente,
+        sino que apuntan a un objeto en la memoria. Esto significa que la variable actúa como una 
+        "dirección" hacia el objeto.
+    </p>
+
+ <h2>Ejemplo básico:</h2>
+    <div class="example">
+        <p>Código:</p>
+        <code>
+String cadena = "Hola, mundo"; // cadena apunta al texto en memoria
+        </code>
+        <p>Explicación:</p>
+        <p>
+            La variable <code>cadena</code> no guarda el texto directamente. En su lugar, apunta a 
+            la ubicación en la memoria donde está almacenado el texto <code>"Hola, mundo"</code>.
+        </p>
+    </div>
+
+ <h2>Características principales:</h2>
+    <ul>
+        <li>Apuntan a objetos como cadenas (<code>String</code>), arreglos (<code>int[]</code>) o clases personalizadas.</li>
+        <li>Se pueden compartir referencias entre variables. Si dos variables apuntan al mismo objeto, ambas lo modifican.</li>
+        <li>El objeto permanece en la memoria hasta que el recolector de basura lo elimine.</li>
+    </ul>
+    <h2>Ejemplo con dos referencias:</h2>
+    <div class="example">
+        <p>Código:</p>
+        <code>
+String mensaje1 = "Hola";
+String mensaje2 = mensaje1; // Ambas apuntan al mismo objeto
+
+System.out.println(mensaje1); // Muestra: Hola
+System.out.println(mensaje2); // Muestra: Hola
+        </code>
+        <p>Explicación:</p>
+        <p>
+            Tanto <code>mensaje1</code> como <code>mensaje2</code> apuntan al mismo texto 
+            <code>"Hola"</code>. Si el contenido cambia a través de una referencia, el otro también se verá afectado.
+        </p>
+    </div>
     
  </main>
   <footer>

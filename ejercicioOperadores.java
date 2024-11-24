@@ -12,5 +12,7 @@ public class ejercicioOperadores {
         //verificar si el dato esta en el rango
         var estaRango = dato >= MINIMA && dato <= MAXIMO;
         System.out.println("Esta en el rango? = "+" " + estaRango);
+
+        //pon en practica :v
     }
 }
