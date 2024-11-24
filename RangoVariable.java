@@ -12,7 +12,8 @@ public class RangoVariable {
         // revisar logica inversa
         var estaFueraRango = !(dato >=1 &&  dato <= 10);
         System.out.println("variable fuera de rango  = " +" "+ estaFueraRango);
-        
+
+        //Practica :v
 
     }
 }
