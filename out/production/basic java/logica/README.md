@@ -168,7 +168,7 @@ public class HolaMundo {
             </tr>
         </thead>
         <tbody>
-            <!-- Tipos primitivos -->
+          <!-- Tipos primitivos -->
             <tr>
                 <td rowspan="8">TIPOS PRIMITIVOS</td>
                 <td>byte</td>
@@ -234,7 +234,7 @@ public class HolaMundo {
 
   <section>
             <h2>Comentarios en Java</h2>
-            <p>Los comentarios son útiles para documentar el código y no son ejecutados por el programa. Hay tres tipos:</p>
+            <p>Los comentarios son útiles para documentar el código y no son ejecutados por el programa. Hay dos tipos:</p>
             <pre>
 // Comentario de una línea
 /* comentarios para varias lineas de codigo */
@@ -391,6 +391,129 @@ Tu nombre es: José
     </table>
 
 <p>Por ejemplo, si necesitas leer un número entero, usas <code>nextInt()</code>. Si necesitas leer texto, usas <code>nextLine()</code>. Cada método está diseñado para capturar un tipo de dato específico.</p>
+<h1>Tipos de Variables en Java</h1>
+ <img src="https://oregoom.com/wp-content/uploads/2024/03/tipos-de-variables-en-java.webp" alt="Logo de sout" width="500">
+    <p>Una variable es un contenedor que guarda información en un programa, y su valor puede cambiar durante la ejecución. En Java, existen diferentes tipos de variables dependiendo del tipo de datos que almacenan. Aquí explicamos los principales tipos de variables y su uso.</p>
+    
+<h2>1. Variables de tipos primitivos</h2>
+    <p>Son las variables más básicas. Cada una almacena un valor único como números, caracteres, o valores booleanos. Estas variables son de tamaño fijo y declaradas con su tipo explícito.</p>
+    <pre>
+<code>
+int edad = 25;          // Entero
+double precio = 9.99;   // Número con decimales
+char letra = 'A';       // Carácter
+boolean esMayor = true; // Valor verdadero o falso
+</code>
+    </pre>
+    <h3>Tipos primitivos disponibles en Java:</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>byte</td>
+                <td>Entero pequeño (8 bits)</td>
+                <td><code>byte b = 100;</code></td>
+            </tr>
+            <tr>
+                <td>short</td>
+                <td>Entero pequeño (16 bits)</td>
+                <td><code>short s = 1000;</code></td>
+            </tr>
+            <tr>
+                <td>int</td>
+                <td>Entero estándar (32 bits)</td>
+                <td><code>int i = 50000;</code></td>
+            </tr>
+            <tr>
+                <td>long</td>
+                <td>Entero grande (64 bits)</td>
+                <td><code>long l = 100000L;</code></td>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>Número decimal simple (32 bits)</td>
+                <td><code>float f = 3.14f;</code></td>
+            </tr>
+            <tr>
+                <td>double</td>
+                <td>Número decimal doble precisión</td>
+                <td><code>double d = 3.14159;</code></td>
+            </tr>
+            <tr>
+                <td>char</td>
+                <td>Carácter único (16 bits)</td>
+                <td><code>char c = 'A';</code></td>
+            </tr>
+            <tr>
+                <td>boolean</td>
+                <td>Verdadero o falso</td>
+                <td><code>boolean b = true;</code></td>
+            </tr>
+        </tbody>
+    </table>
+    
+<h2>2. Inferencia de tipos con <code>var</code></h2>
+    <p>Java introdujo la palabra clave <code>var</code> en la versión 10 para simplificar la declaración de variables. Con <code>var</code>, Java deduce automáticamente el tipo de datos basado en el valor que se le asigna. Esto se llama inferencia de tipos.</p>
+    <pre>
+<code>
+var numero = 100;         // Java infiere que es un int
+var precio = 9.99;        // Java infiere que es un double
+var mensaje = "Hola";     // Java infiere que es un String
+var esValido = true;      // Java infiere que es un boolean
+</code>
+    </pre>
+    <h3>Reglas para usar <code>var</code>:</h3>
+    <ul>
+        <li><strong>Debe inicializarse al declararla:</strong> Si no asignas un valor al declarar la variable, Java no podrá determinar el tipo.</li>
+        <pre>
+<code>
+❌ var sinValor; // Error: no se puede inferir el tipo
+✔ var valor = 10; // El tipo inferido es int
+</code>
+        </pre>
+        <li><strong>Solo funciona dentro de métodos:</strong> <code>var</code> no se puede usar como una variable de clase o global (atributos de objetos).</li>
+        <pre>
+<code>
+❌ var atributo; // Error: no se permite fuera de un método
+</code>
+        </pre>
+        <li><strong>No se puede cambiar el tipo:</strong> Una vez que se infiere el tipo, no puede cambiar.</li>
+        <pre>
+<code>
+❌ var texto = "Hola"; // Inferido como String
+texto = 123;        // Error: no puedes asignar un int a un String
+</code>
+        </pre>
+    </ul>
+    <h3>Ejemplo completo usando <code>var</code>:</h3>
+    <pre>
+<code>
+public class DemoVar {
+    public static void main(String[] args) {
+        // Inferencia de tipos
+        var numero = 42;           // int
+        var texto = "Hola Mundo";  // String
+        var decimal = 3.14;        // double
+        var caracter = 'A';        // char
+        var logico = true;         // boolean
+
+// Imprimir los valores
+        System.out.println("Número: " + numero);
+        System.out.println("Texto: " + texto);
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Carácter: " + caracter);
+        System.out.println("Lógico: " + logico);
+    }
+}
+</code>
+    </pre>
+    
  </main>
   <footer>
         <p>&copy; 2024 Fundamentos de Java. Todos los derechos reservados.</p>
