@@ -15,24 +15,31 @@ public class TicketVenta {
         System.out.println(" ");
         System.out.print("Precio del ultimo producto:"+ " ");
         var precio4 = Double.parseDouble(consola.nextLine());
-        
+
         //Nuevos requerimientos
         System.out.println("Aplicar algun otro descuento (%)?:");
-        var descuento = Integer.parseInt(consola.nextLine());
+        var descuentoporcentaje = Integer.parseInt(consola.nextLine());
 
 
         System.out.println(" ");
         var subtotal = precio1 + precio2 + precio3 + precio4 ;
+        var descuento = subtotal*(descuentoporcentaje/100.0);
+        //subtotal con descuento
+        var subtotalDescuento = subtotal-descuento;
+
         //impuesto
         var impuesto = subtotal*0.20;
         //total compra con inpuesto
         var costoTotal = subtotal + impuesto;
 
         System.out.printf("""
-                 subtotal : $%.2f
+                 %nTiccket de Venta
+                 ------------------------------
+                 Subtotal : $%.2f
+                 Descuento : $%.2f (%d%%)
                  Impuesto (16%%): $%.2f
                  Costo total de la compra: $%.2f
-                """,subtotal,impuesto,costoTotal);
+                """,subtotal, descuento,descuentoporcentaje,impuesto,costoTotal);
 
 
     }
