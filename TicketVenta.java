@@ -15,6 +15,12 @@ public class TicketVenta {
         System.out.println(" ");
         System.out.print("Precio del ultimo producto:"+ " ");
         var precio4 = Double.parseDouble(consola.nextLine());
+        
+        //Nuevos requerimientos
+        System.out.println("Aplicar algun otro descuento (%)?:");
+        var descuento = Integer.parseInt(consola.nextLine());
+
+
         System.out.println(" ");
         var subtotal = precio1 + precio2 + precio3 + precio4 ;
         //impuesto
