@@ -13,7 +13,7 @@ public class AreaPerimetroRectangulo {
         var calculo = base + altura;
         System.out.println("El area del rectangulo es:"+" "+ calculo);
         var perimetro = (base * altura)*2;
-        System.out.println("El perimetro es:"+perimetro);
+        System.out.println("El perimetro es:"+" "+perimetro);
 
 
 
