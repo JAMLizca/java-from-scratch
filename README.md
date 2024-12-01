@@ -718,6 +718,87 @@ System.out.println(resultado);
 // Salida: Hola Mundo Java
 </code>
     </pre>
+    <h1>Operadores Aritméticos y de Asignación en Java</h1>
+
+<h2>Operadores Aritméticos</h2>
+    <p>Son operadores binarios que realizan operaciones matemáticas:</p>
+    <ul>
+        <li><strong>Suma (+):</strong> Realiza la suma de dos operandos.</li>
+        <li><strong>Resta (-):</strong> Realiza la resta entre dos operandos.</li>
+        <li><strong>Multiplicación (*):</strong> Multiplica dos operandos.</li>
+        <li><strong>División (/):</strong> Divide el primer operando por el segundo. Si ambos operandos son enteros, el resultado es un número entero (truncado).</li>
+        <li><strong>Modulo (%):</strong> Devuelve el residuo de la división entre dos operandos.</li>
+    </ul>
+    <p><strong>Ejemplo:</strong></p>
+    <pre><code>int a = 9;
+int b = 4;
+int suma = a + b; // 9 + 4 = 13
+int resta = a - b; // 9 - 4 = 5
+int div = a / b; // 9 / 4 = 2 (parte entera)
+int res = a % b; // 9 % 4 = 1 (residuo de la división)
+    </code></pre>
+
+<h2>Operadores de Asignación</h2>
+    <p>Los operadores de asignación permiten asignar valores a variables. El operador principal es <code>=</code>, pero también existen versiones acumulativas como:</p>
+    <ul>
+        <li><strong>+=</strong>: Suma el valor de la derecha al de la izquierda y lo asigna.</li>
+        <li><strong>-=</strong>: Resta el valor de la derecha al de la izquierda y lo asigna.</li>
+        <li><strong>*=</strong>: Multiplica el valor de la derecha por el de la izquierda y lo asigna.</li>
+        <li><strong>/=</strong>: Divide el valor de la izquierda por el de la derecha y lo asigna.</li>
+        <li><strong>%=</strong>: Asigna el residuo de la división entre la izquierda y la derecha.</li>
+    </ul>
+
+    <p><strong>Ejemplo:</strong></p>
+    <pre><code>int a = 5;
+a += 3; // a = a + 3; ahora a = 8
+a -= 2; // a = a - 2; ahora a = 6
+a *= 2; // a = a * 2; ahora a = 12
+a /= 3; // a = a / 3; ahora a = 4
+a %= 3; // a = a % 3; ahora a = 1
+    </code></pre>
+
+ <h2>Tabla de Operadores de Asignación</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Operador</th>
+                <th>Expresión</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>=</td>
+                <td>a = b</td>
+                <td>Asigna el valor de <code>b</code> a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>+=</td>
+                <td>a += b</td>
+                <td>Suma <code>b</code> a <code>a</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>-=</td>
+                <td>a -= b</td>
+                <td>Resta <code>b</code> a <code>a</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>*=</td>
+                <td>a *= b</td>
+                <td>Multiplica <code>a</code> por <code>b</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>/=</td>
+                <td>a /= b</td>
+                <td>Divide <code>a</code> entre <code>b</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>%=</td>
+                <td>a %= b</td>
+                <td>Asigna el residuo de la división entre <code>a</code> y <code>b</code> a <code>a</code>.</td>
+            </tr>
+        </tbody>
+    </table>
   </div>
     
  </main>
