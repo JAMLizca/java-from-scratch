@@ -554,7 +554,252 @@ System.out.println(mensaje2); // Muestra: Hola
             Tanto <code>mensaje1</code> como <code>mensaje2</code> apuntan al mismo texto 
             <code>"Hola"</code>. Si el contenido cambia a través de una referencia, el otro también se verá afectado.
         </p>
-    </div>
+	<h1>Palabras Reservadas en Java</h1>
+    <p>
+        En Java, las palabras reservadas son identificadores que tienen un significado especial en el lenguaje. 
+        Estas no pueden ser utilizadas como nombres de variables, métodos, clases u otros identificadores. 
+        Aquí tienes la lista organizada en varias columnas:
+    </p>
+
+<table border="1">
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+                <th>Columna 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>abstract</td>
+                <td>assert</td>
+                <td>boolean</td>
+                <td>break</td>
+                <td>byte</td>
+            </tr>
+        <tr>
+                <td>case</td>
+                <td>catch</td>
+                <td>char</td>
+                <td>class</td>
+                <td>const</td>
+            </tr>
+            <tr>
+                <td>continue</td>
+                <td>default</td>
+                <td>do</td>
+                <td>double</td>
+                <td>else</td>
+            </tr>
+            <tr>
+                <td>enum</td>
+                <td>extends</td>
+                <td>final</td>
+                <td>finally</td>
+                <td>float</td>
+            </tr>
+            <tr>
+                <td>for</td>
+                <td>goto</td>
+                <td>if</td>
+                <td>implements</td>
+                <td>import</td>
+            </tr>
+            <tr>
+                <td>instanceof</td>
+                <td>int</td>
+                <td>interface</td>
+                <td>long</td>
+                <td>native</td>
+            </tr>
+            <tr>
+                <td>new</td>
+                <td>null</td>
+                <td>package</td>
+                <td>private</td>
+                <td>protected</td>
+            </tr>
+            <tr>
+                <td>public</td>
+                <td>return</td>
+                <td>short</td>
+                <td>static</td>
+                <td>strictfp</td>
+            </tr>
+            <tr>
+                <td>super</td>
+                <td>switch</td>
+                <td>synchronized</td>
+                <td>this</td>
+                <td>throw</td>
+            </tr>
+            <tr>
+                <td>throws</td>
+                <td>transient</td>
+                <td>try</td>
+                <td>void</td>
+                <td>volatile</td>
+            </tr>
+            <tr>
+                <td>while</td>
+                <td colspan="4"></td> <!-- Celdas vacías para equilibrar -->
+            </tr>
+        </tbody>
+    </table>
+     <h1>Concatenación de Cadenas en Java</h1>
+
+<h2>1. Operador +</h2>
+    <p>Es la forma más básica de unir dos o más cadenas utilizando el operador <code>+</code>.</p>
+    <pre>
+<code>
+String nombre = "María";
+String saludo = "Hola, " + nombre + "!";
+System.out.println(saludo);
+// Salida: Hola, María!
+</code>
+    </pre>
+
+ <h2>2. Método concat()</h2>
+    <p>Une dos cadenas y devuelve una nueva cadena como resultado.</p>
+    <pre>
+<code>
+String parte1 = "Hola";
+String parte2 = " Mundo";
+String resultado = parte1.concat(parte2);
+System.out.println(resultado);
+// Salida: Hola Mundo
+</code>
+    </pre>
+
+<h2>3. StringBuilder</h2>
+    <p>Permite construir y modificar cadenas de forma eficiente, ideal para unir muchas cadenas.</p>
+    <pre>
+<code>
+StringBuilder sb = new StringBuilder("Hola");
+sb.append(" Mundo").append(" desde Java");
+System.out.println(sb.toString());
+// Salida: Hola Mundo desde Java
+</code>
+    </pre>
+
+ <h2>4. String.format()</h2>
+    <p>Une cadenas y variables usando un formato predefinido.</p>
+    <pre>
+<code>
+String nombre = "Carlos";
+int edad = 30;
+String mensaje = String.format("Mi nombre es %s y tengo %d años.", nombre, edad);
+System.out.println(mensaje);
+// Salida: Mi nombre es Carlos y tengo 30 años.
+</code>
+    </pre>
+
+<h2>5. Método join()</h2>
+    <p>Une varias cadenas con un separador entre ellas.</p>
+    <pre>
+<code>
+String frutas = String.join(", ", "Manzana", "Banana", "Cereza");
+System.out.println(frutas);
+// Salida: Manzana, Banana, Cereza
+</code>
+    </pre>
+
+ <h2>6. Collectors.joining()</h2>
+    <p>Se usa en flujos de datos para unir elementos en una cadena, con o sin separadores.</p>
+    <pre>
+<code>
+import java.util.stream.Stream;
+
+String resultado = Stream.of("Hola", "Mundo", "Java")
+                         .collect(java.util.stream.Collectors.joining(" "));
+System.out.println(resultado);
+// Salida: Hola Mundo Java
+</code>
+    </pre>
+    <h1>Operadores Aritméticos y de Asignación en Java</h1>
+
+<h2>Operadores Aritméticos</h2>
+    <p>Son operadores binarios que realizan operaciones matemáticas:</p>
+    <ul>
+        <li><strong>Suma (+):</strong> Realiza la suma de dos operandos.</li>
+        <li><strong>Resta (-):</strong> Realiza la resta entre dos operandos.</li>
+        <li><strong>Multiplicación (*):</strong> Multiplica dos operandos.</li>
+        <li><strong>División (/):</strong> Divide el primer operando por el segundo. Si ambos operandos son enteros, el resultado es un número entero (truncado).</li>
+        <li><strong>Modulo (%):</strong> Devuelve el residuo de la división entre dos operandos.</li>
+    </ul>
+    <p><strong>Ejemplo:</strong></p>
+    <pre><code>int a = 9;
+int b = 4;
+int suma = a + b; // 9 + 4 = 13
+int resta = a - b; // 9 - 4 = 5
+int div = a / b; // 9 / 4 = 2 (parte entera)
+int res = a % b; // 9 % 4 = 1 (residuo de la división)
+    </code></pre>
+
+<h2>Operadores de Asignación</h2>
+    <p>Los operadores de asignación permiten asignar valores a variables. El operador principal es <code>=</code>, pero también existen versiones acumulativas como:</p>
+    <ul>
+        <li><strong>+=</strong>: Suma el valor de la derecha al de la izquierda y lo asigna.</li>
+        <li><strong>-=</strong>: Resta el valor de la derecha al de la izquierda y lo asigna.</li>
+        <li><strong>*=</strong>: Multiplica el valor de la derecha por el de la izquierda y lo asigna.</li>
+        <li><strong>/=</strong>: Divide el valor de la izquierda por el de la derecha y lo asigna.</li>
+        <li><strong>%=</strong>: Asigna el residuo de la división entre la izquierda y la derecha.</li>
+    </ul>
+
+<p><strong>Ejemplo:</strong></p>
+    <pre><code>int a = 5;
+a += 3; // a = a + 3; ahora a = 8
+a -= 2; // a = a - 2; ahora a = 6
+a *= 2; // a = a * 2; ahora a = 12
+a /= 3; // a = a / 3; ahora a = 4
+a %= 3; // a = a % 3; ahora a = 1
+    </code></pre>
+
+ <h2>Tabla de Operadores de Asignación</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Operador</th>
+                <th>Expresión</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>=</td>
+                <td>a = b</td>
+                <td>Asigna el valor de <code>b</code> a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>+=</td>
+                <td>a += b</td>
+                <td>Suma <code>b</code> a <code>a</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>-=</td>
+                <td>a -= b</td>
+                <td>Resta <code>b</code> a <code>a</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>*=</td>
+                <td>a *= b</td>
+                <td>Multiplica <code>a</code> por <code>b</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>/=</td>
+                <td>a /= b</td>
+                <td>Divide <code>a</code> entre <code>b</code> y asigna el resultado a <code>a</code>.</td>
+            </tr>
+            <tr>
+                <td>%=</td>
+                <td>a %= b</td>
+                <td>Asigna el residuo de la división entre <code>a</code> y <code>b</code> a <code>a</code>.</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
     
  </main>
   <footer>
