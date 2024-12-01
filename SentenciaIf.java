@@ -5,8 +5,8 @@ public class SentenciaIf {
         //uso de la sentencia if
         int edad= 30;
         if (edad>=20){
-            System.out.println("Estas viejo men :V");
+            System.out.println("Estas viejo men, te pasan los años :V");
         }
-        
+
     }
 }
