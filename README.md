@@ -748,7 +748,7 @@ int res = a % b; // 9 % 4 = 1 (residuo de la división)
         <li><strong>%=</strong>: Asigna el residuo de la división entre la izquierda y la derecha.</li>
     </ul>
 
-    <p><strong>Ejemplo:</strong></p>
+<p><strong>Ejemplo:</strong></p>
     <pre><code>int a = 5;
 a += 3; // a = a + 3; ahora a = 8
 a -= 2; // a = a - 2; ahora a = 6
