@@ -554,7 +554,101 @@ System.out.println(mensaje2); // Muestra: Hola
             Tanto <code>mensaje1</code> como <code>mensaje2</code> apuntan al mismo texto 
             <code>"Hola"</code>. Si el contenido cambia a través de una referencia, el otro también se verá afectado.
         </p>
-    </div>
+	<h1>Palabras Reservadas en Java</h1>
+    <p>
+        En Java, las palabras reservadas son identificadores que tienen un significado especial en el lenguaje. 
+        Estas no pueden ser utilizadas como nombres de variables, métodos, clases u otros identificadores. 
+        Aquí tienes la lista organizada en varias columnas:
+    </p>
+
+<table border="1">
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+                <th>Columna 4</th>
+                <th>Columna 5</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>abstract</td>
+                <td>assert</td>
+                <td>boolean</td>
+                <td>break</td>
+                <td>byte</td>
+            </tr>
+        <tr>
+                <td>case</td>
+                <td>catch</td>
+                <td>char</td>
+                <td>class</td>
+                <td>const</td>
+            </tr>
+            <tr>
+                <td>continue</td>
+                <td>default</td>
+                <td>do</td>
+                <td>double</td>
+                <td>else</td>
+            </tr>
+            <tr>
+                <td>enum</td>
+                <td>extends</td>
+                <td>final</td>
+                <td>finally</td>
+                <td>float</td>
+            </tr>
+            <tr>
+                <td>for</td>
+                <td>goto</td>
+                <td>if</td>
+                <td>implements</td>
+                <td>import</td>
+            </tr>
+            <tr>
+                <td>instanceof</td>
+                <td>int</td>
+                <td>interface</td>
+                <td>long</td>
+                <td>native</td>
+            </tr>
+            <tr>
+                <td>new</td>
+                <td>null</td>
+                <td>package</td>
+                <td>private</td>
+                <td>protected</td>
+            </tr>
+            <tr>
+                <td>public</td>
+                <td>return</td>
+                <td>short</td>
+                <td>static</td>
+                <td>strictfp</td>
+            </tr>
+            <tr>
+                <td>super</td>
+                <td>switch</td>
+                <td>synchronized</td>
+                <td>this</td>
+                <td>throw</td>
+            </tr>
+            <tr>
+                <td>throws</td>
+                <td>transient</td>
+                <td>try</td>
+                <td>void</td>
+                <td>volatile</td>
+            </tr>
+            <tr>
+                <td>while</td>
+                <td colspan="4"></td> <!-- Celdas vacías para equilibrar -->
+            </tr>
+        </tbody>
+    </table>
+  </div>
     
  </main>
   <footer>
