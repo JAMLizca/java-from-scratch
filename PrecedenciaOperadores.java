@@ -12,9 +12,15 @@ public class PrecedenciaOperadores {
         //8. asignacion =, +=, -=, *=,etc
 
         //la precedencia = a la importancia deoperadores
-        
-        var a = 12/3+2*34;
+
+        //1. primero se hace la / (12/3)
+        //2. segundo la * (2*34)
+        //3. la suma (resultado de la / y *)
+        //4  la resta (resultado de suma -12)
+        var a = 12/3+2*34-12;
         System.out.println("a = " + a);
+
+
 
     }
 
