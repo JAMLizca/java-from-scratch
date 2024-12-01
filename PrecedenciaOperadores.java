@@ -25,7 +25,7 @@ public class PrecedenciaOperadores {
         var b = (12/3)+2*34-12;
         System out println ("El total es:"+" "+ b);
 
-        La primer operacion a realizar
+        La primer operacion a realizar es la que esta dentro de parentesis ()
          */
 
 
