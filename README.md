@@ -648,6 +648,76 @@ System.out.println(mensaje2); // Muestra: Hola
             </tr>
         </tbody>
     </table>
+     <h1>Concatenación de Cadenas en Java</h1>
+
+<h2>1. Operador +</h2>
+    <p>Es la forma más básica de unir dos o más cadenas utilizando el operador <code>+</code>.</p>
+    <pre>
+<code>
+String nombre = "María";
+String saludo = "Hola, " + nombre + "!";
+System.out.println(saludo);
+// Salida: Hola, María!
+</code>
+    </pre>
+
+ <h2>2. Método concat()</h2>
+    <p>Une dos cadenas y devuelve una nueva cadena como resultado.</p>
+    <pre>
+<code>
+String parte1 = "Hola";
+String parte2 = " Mundo";
+String resultado = parte1.concat(parte2);
+System.out.println(resultado);
+// Salida: Hola Mundo
+</code>
+    </pre>
+
+<h2>3. StringBuilder</h2>
+    <p>Permite construir y modificar cadenas de forma eficiente, ideal para unir muchas cadenas.</p>
+    <pre>
+<code>
+StringBuilder sb = new StringBuilder("Hola");
+sb.append(" Mundo").append(" desde Java");
+System.out.println(sb.toString());
+// Salida: Hola Mundo desde Java
+</code>
+    </pre>
+
+ <h2>4. String.format()</h2>
+    <p>Une cadenas y variables usando un formato predefinido.</p>
+    <pre>
+<code>
+String nombre = "Carlos";
+int edad = 30;
+String mensaje = String.format("Mi nombre es %s y tengo %d años.", nombre, edad);
+System.out.println(mensaje);
+// Salida: Mi nombre es Carlos y tengo 30 años.
+</code>
+    </pre>
+
+<h2>5. Método join()</h2>
+    <p>Une varias cadenas con un separador entre ellas.</p>
+    <pre>
+<code>
+String frutas = String.join(", ", "Manzana", "Banana", "Cereza");
+System.out.println(frutas);
+// Salida: Manzana, Banana, Cereza
+</code>
+    </pre>
+
+ <h2>6. Collectors.joining()</h2>
+    <p>Se usa en flujos de datos para unir elementos en una cadena, con o sin separadores.</p>
+    <pre>
+<code>
+import java.util.stream.Stream;
+
+String resultado = Stream.of("Hola", "Mundo", "Java")
+                         .collect(java.util.stream.Collectors.joining(" "));
+System.out.println(resultado);
+// Salida: Hola Mundo Java
+</code>
+    </pre>
   </div>
     
  </main>
