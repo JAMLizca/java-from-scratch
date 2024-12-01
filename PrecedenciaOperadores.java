@@ -20,6 +20,14 @@ public class PrecedenciaOperadores {
         var a = 12/3+2*34-12;
         System.out.println("a = " + a);
 
+        //Aclaracion: una operacion dentro de un parentesis significa que es prioridad.
+        /*
+        var b = (12/3)+2*34-12;
+        System out println ("El total es:"+" "+ b);
+
+        La primer operacion a realizar
+         */
+
 
 
     }
