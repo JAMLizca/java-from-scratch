@@ -799,6 +799,70 @@ a %= 3; // a = a % 3; ahora a = 1
             </tr>
         </tbody>
     </table>
+    <strong>Ejemplo de Pre-incremento:</strong>
+        <code>
+int i = 5; 
+int resultado = ++i; // Incrementa primero (i = 6), luego asigna (resultado = 6)
+        </code>
+        <p>Salida:</p>
+        <code>
+i: 6 <br>
+resultado: 6
+        </code>
+    </div>
+
+  <h2>2. Post-incremento y Post-decremento</h2>
+    <p>Primero usan el valor actual de la variable y luego la modifican.</p>
+    <div class="example">
+        <strong>Ejemplo de Post-incremento:</strong>
+        <code>
+int i = 5; 
+int resultado = i++; // Usa primero (resultado = 5), luego incrementa (i = 6)
+        </code>
+        <p>Salida:</p>
+        <code>
+i: 6 <br>
+resultado: 5
+        </code>
+    </div>
+
+ <h2>Resumen:</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Operador</th>
+                <th>Antes de la operación</th>
+                <th>Valor usado en la operación</th>
+                <th>Nuevo valor de la variable</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>++i</code> (Pre-incremento)</td>
+                <td>5</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td><code>i++</code> (Post-incremento)</td>
+                <td>5</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td><code>--i</code> (Pre-decremento)</td>
+                <td>5</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td><code>i--</code> (Post-decremento)</td>
+                <td>5</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+    </table>
   </div>
     
  </main>
