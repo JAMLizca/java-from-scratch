@@ -799,72 +799,106 @@ a %= 3; // a = a % 3; ahora a = 1
             </tr>
         </tbody>
     </table>
-    <strong>Ejemplo de Pre-incremento:</strong>
-        <code>
-int i = 5; 
-int resultado = ++i; // Incrementa primero (i = 6), luego asigna (resultado = 6)
-        </code>
-        <p>Salida:</p>
-        <code>
-i: 6 <br>
-resultado: 6
-        </code>
-    </div>
+        <h1>Operadores de Incremento y Decremento en Java</h1>
+    <p>Los operadores <code>++</code> y <code>--</code> son utilizados para incrementar o decrementar una variable en 1. Pueden usarse de dos maneras:</p>
+    <ul>
+        <li><strong>Preincremento / Predecremento:</strong> Primero modifica la variable y luego utiliza el valor modificado.</li>
+        <li><strong>Postincremento / Postdecremento:</strong> Primero utiliza la variable en su estado actual y luego la modifica.</li>
+    </ul>
 
-  <h2>2. Post-incremento y Post-decremento</h2>
-    <p>Primero usan el valor actual de la variable y luego la modifican.</p>
-    <div class="example">
-        <strong>Ejemplo de Post-incremento:</strong>
-        <code>
-int i = 5; 
-int resultado = i++; // Usa primero (resultado = 5), luego incrementa (i = 6)
-        </code>
-        <p>Salida:</p>
-        <code>
-i: 6 <br>
-resultado: 5
-        </code>
-    </div>
+ <h2>Ejemplo Práctico</h2>
+    <p>Considera el siguiente código en Java:</p>
+    <pre>
+<code>
+// Declaración inicial
+int x = 5;
 
- <h2>Resumen:</h2>
-    <table border="1" cellspacing="0" cellpadding="5">
+// Preincremento (++x)
+int y = ++x; // Incrementa x (x pasa a ser 6) y asigna ese valor a y.
+System.out.println("x: " + x); // Imprime 6
+System.out.println("y: " + y); // Imprime 6
+
+// Postincremento (x++)
+int z = x++; // Usa el valor actual de x (6) y luego lo incrementa.
+System.out.println("x: " + x); // Imprime 7
+System.out.println("z: " + z); // Imprime 6
+</code>
+    </pre>
+<h1>Operadores Relacionales en Java</h1>
+    <p>Los operadores relacionales sirven para realizar comparaciones de igualdad, desigualdad y relación de menor o mayor. El resultado de estos operadores es siempre un valor booleano (<code>true</code> o <code>false</code>) según se cumpla o no la relación considerada. Se utilizan con frecuencia en estructuras de decisión (<code>if</code>, <code>else</code>) y bucles (<code>while</code>, <code>for</code>).</p>
+
+<h2>Tabla de Operadores Relacionales</h2>
+    <table>
         <thead>
             <tr>
                 <th>Operador</th>
-                <th>Antes de la operación</th>
-                <th>Valor usado en la operación</th>
-                <th>Nuevo valor de la variable</th>
+                <th>Descripción</th>
+                <th>Ejemplo</th>
+                <th>Resultado</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><code>++i</code> (Pre-incremento)</td>
-                <td>5</td>
-                <td>6</td>
-                <td>6</td>
+                <td><code>==</code></td>
+                <td>Igual a</td>
+                <td><code>5 == 5</code></td>
+                <td><code>true</code></td>
             </tr>
             <tr>
-                <td><code>i++</code> (Post-incremento)</td>
-                <td>5</td>
-                <td>5</td>
-                <td>6</td>
+                <td><code>!=</code></td>
+                <td>Diferente de</td>
+                <td><code>5 != 3</code></td>
+                <td><code>true</code></td>
             </tr>
             <tr>
-                <td><code>--i</code> (Pre-decremento)</td>
-                <td>5</td>
-                <td>4</td>
-                <td>4</td>
+                <td><code>&lt;</code></td>
+                <td>Menor que</td>
+                <td><code>3 &lt; 5</code></td>
+                <td><code>true</code></td>
             </tr>
             <tr>
-                <td><code>i--</code> (Post-decremento)</td>
-                <td>5</td>
-                <td>5</td>
-                <td>4</td>
+                <td><code>&gt;</code></td>
+                <td>Mayor que</td>
+                <td><code>7 &gt; 5</code></td>
+                <td><code>true</code></td>
+            </tr>
+            <tr>
+                <td><code>&lt;=</code></td>
+                <td>Menor o igual a</td>
+                <td><code>5 &lt;= 5</code></td>
+                <td><code>true</code></td>
+            </tr>
+            <tr>
+                <td><code>&gt;=</code></td>
+                <td>Mayor o igual a</td>
+                <td><code>6 &gt;= 5</code></td>
+                <td><code>true</code></td>
             </tr>
         </tbody>
     </table>
-  </div>
-    
+
+    <h2>Ejemplo de Código en Java</h2>
+    <pre>
+<code>
+public class OperadoresRelacionales {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+
+ // Operadores de comparación
+        System.out.println("a == b: " + (a == b)); // false
+        System.out.println("a != b: " + (a != b)); // true
+        System.out.println("a < b: " + (a < b));   // true
+        System.out.println("a > b: " + (a > b));   // false
+        System.out.println("a <= b: " + (a <= b)); // true
+        System.out.println("a >= b: " + (a >= b)); // false
+    }
+}
+</code>
+    </pre>
+   
+</body>
+
  </main>
   <footer>
         <p>&copy; 2024 Fundamentos de Java. Todos los derechos reservados.</p>
