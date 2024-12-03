@@ -877,9 +877,10 @@ System.out.println("z: " + z); // Imprime 6
         </tbody>
     </table>
 
-    <h2>Ejemplo de Código en Java</h2>
+<h2>Ejemplo de Código en Java</h2>
     <pre>
 <code>
+
 public class OperadoresRelacionales {
     public static void main(String[] args) {
         int a = 10;
@@ -894,8 +895,7 @@ public class OperadoresRelacionales {
         System.out.println("a >= b: " + (a >= b)); // false
     }
 }
-</code>
-    </pre>
+
    
 </body>
 
