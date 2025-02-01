@@ -24,5 +24,6 @@ public class CaracteresEspeciales {
         // \\ diagonal o barra invertida
         var cadena5 = "Hola\\Mundo ";
         System.out.println("cadena5 = " + cadena5);
+
     }
 }
