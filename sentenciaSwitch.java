@@ -1,5 +1,7 @@
 package logica;
 
+import java.util.Scanner;
+
 public class sentenciaSwitch {
     public static void main(String[] args) {
         /*
@@ -48,6 +50,37 @@ public class sentenciaSwitch {
 
         *default: Este es el camino por defecto que se sigue si ningún caso coincide con el valor de la variable. Es como una red de seguridad.
              */
+
+        var consola = new Scanner(System.in);
+        System.out.println("Ingresa un dia de la semana:"+ " ");
+        int dias = Integer.parseInt(consola.nextLine());
+        switch (dias){
+            case 1:
+                System.out.println("Es Lunes");
+                break;
+            case 2:
+                System.out.println("Es Martes");
+                break;
+            case 3:
+                System.out.println("Es miercoles");
+            case 4:
+                System.out.println("Es jueves");
+                break;
+            case 5:
+                System.out.println("Es viernes");
+                break;
+            case 6:
+                System.out.println("Es sabado");
+                break;
+            case 7:
+                System.out.println("Es domingo");
+                break;
+             default:
+                 System.out.println("Dia invalido");
+                 break;
+
+
+        }
 
         }
 }
