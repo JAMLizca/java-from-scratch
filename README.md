@@ -109,23 +109,21 @@ public class HolaMundo {
     public static void main(String[] args) {
         System.out.println("¡Hola Mundo!");
     }
-}
- <h3>Ejemplo:</h3>
-    <pre>
-<code>
+
+```
+
+### Ejemplo:
+  ```java
 System.out.println("Hola");
 System.out.println("mundo");
-</code>
-    </pre>
+  ```
     
-  <h3>Salida:</h3>
-    <pre>
-<code>
+### Salida:
+```java
 Hola
 mundo
-</code>
-    </pre>
-     <h1>Entrada de Datos en Java</h1>
+```
+# Entrada de datos en Java:
     <h2>Clase <code>Scanner</code></h2>
     <p>La clase <code>Scanner</code> se usa para obtener entrada de datos del usuario y se encuentra en el paquete <code>java.util</code>. Antes de usarla, es necesario importarla.</p>
     <h3>¿Cómo usar <code>Scanner</code>?</h3>
