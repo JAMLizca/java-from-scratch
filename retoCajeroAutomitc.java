@@ -3,43 +3,58 @@ import java.util.Scanner;
 
 public class retoCajeroAutomitc {
     public static void main(String[] args) {
-            var DEPOSITAR =0;
-            var RETIRAR=0;
-            var CONSULTAR_SALDO=10000;
-            var salir = false;
+        int saldo = 10000;  // Saldo inicial
+        boolean salir = false;
+        Scanner scanner = new Scanner(System.in);
 
-            var depoReCon = new Scanner(System.in);
+        while (!salir) {
+            // Mostrar opciones
+            System.out.println("\n--- Cajero Automático ---");
+            System.out.println("1. Depositar");
+            System.out.println("2. Retirar");
+            System.out.println("3. Consultar saldo");
+            System.out.println("4. Salir");
+            System.out.print("Ingrese una opción: ");
+            String opcion = scanner.nextLine(); // Leer opción como String para evitar errores
 
-        System.out.println("---Cajero Automatico---");
-        System.out.println("Operaciones que puedes realizar: ");
-        System.out.println("1. Depositar");
-        System.out.println("2. Retirar");
-        System.out.println("3. Consultar saldo");
-        System.out.println("4.Salir");
-        System.out.println("Ingresa una opcion:");
-        var opcion = depoReCon.nextLine();
-        while (!salir)
+            switch (opcion) {
+                case "1":
+                    System.out.print("Ingrese la cantidad a depositar: ");
+                    int deposito = scanner.nextInt();
+                    if (deposito > 0) {
+                        saldo += deposito;
+                        System.out.println("Depósito exitoso. Su saldo actual es: $" + saldo);
+                    } else {
+                        System.out.println("Cantidad inválida. Intente de nuevo.");
+                    }
+                    scanner.nextLine(); // Limpiar el buffer
+                    break;
 
-             if (opcion.equals("1")) {
-                 System.out.println("Ingrese la cantidad a depositar:");
-                 var cantidad = depoReCon.nextInt();
-                 DEPOSITAR += cantidad;
-                 System.out.println("Su saldo actual es de: " + DEPOSITAR);
-                 break;
-             }   else if (opcion.equals("2")) {
-                 System.out.println("Ingrese la cantidad a retirar:");
-                 var cantidad = depoReCon.nextInt();
-                 RETIRAR += cantidad;
-                 System.out.println("Su saldo actual es de: " + RETIRAR);
-                 break;
-             }else if (opcion.equals("3")) {
-                 System.out.println("Su saldo actual es de: " + CONSULTAR_SALDO);
-                 break;
-             }else{
-                 System.out.println("Gracias por su visita");
-                 salir = true;
-             }
+                case "2":
+                    System.out.print("Ingrese la cantidad a retirar: ");
+                    int retiro = scanner.nextInt();
+                    if (retiro > 0 && retiro <= saldo) {
+                        saldo -= retiro;
+                        System.out.println("Retiro exitoso. Su saldo actual es: $" + saldo);
+                    } else {
+                        System.out.println("Fondos insuficientes o cantidad inválida.");
+                    }
+                    scanner.nextLine(); // Limpiar el buffer
+                    break;
 
+                case "3":
+                    System.out.println("Su saldo actual es: $" + saldo);
+                    break;
 
+                case "4":
+                    System.out.println("Gracias por su visita.");
+                    salir = true;
+                    break;
+
+                default:
+                    System.out.println("Opción inválida. Intente de nuevo.");
+            }
+        }
+        scanner.close();
     }
 }
