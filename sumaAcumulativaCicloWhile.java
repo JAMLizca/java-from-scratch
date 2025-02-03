@@ -1,6 +1,6 @@
 package logica;
 
-public class sumaAcumulativaCicloFor {
+public class sumaAcumulativaCicloWhile {
     public static void main(String[] args) {
         final var MAXIMO = 5;
         var acumaldor =0;
