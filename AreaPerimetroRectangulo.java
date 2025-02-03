@@ -15,7 +15,7 @@ public class AreaPerimetroRectangulo {
         var perimetro = (base * altura)*2;
         System.out.println("El perimetro es:"+" "+perimetro);
 
-
+          
 
     }
 }
