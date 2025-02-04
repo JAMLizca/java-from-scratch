@@ -15,7 +15,8 @@ public class dibujarTriangulo {
             System.out.println();
         }
         //for(var fila =1; fila<=numfila; fila++9{
-        //vara espacioWhite = " ".repeat(numfila-fila;
+        //vara espacioWhite = " ".repeat(numfila-fila);
+        //var asteriscos ="*".repeat(2*fila-1);
 
     }
          /*
