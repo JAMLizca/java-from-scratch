@@ -15,7 +15,8 @@ public class dibujarTriangulo {
             System.out.println();
         }
         //for(var fila =1; fila<=numfila; fila++9{
-        
+        //vara espacioWhite = " ".repeat(numfila-fila;
+
     }
          /*
          si quieres seguir probando puedes quitarle el comentario al fragmento de codigo, de lo contrario puedes
