@@ -22,6 +22,8 @@ public class arreglos {
         eneteros[2]=30;
         eneteros[3]=40;
         eneteros[4]=50;
+        //leer valores de arreglos
+        System.out.println("Valor en el indice 2 = " + eneteros[2] + " ");
 
     }
 }
