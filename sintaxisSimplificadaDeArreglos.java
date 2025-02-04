@@ -21,6 +21,10 @@ public class sintaxisSimplificadaDeArreglos {
 
             El resultado será la impresión de los números del 1 al 6, recorriendo el arreglo en orden.
              */
+
+            /*
+            otra forma de mandar a imprimir es utilizando system.out.println
+             */
         }
 
     }
