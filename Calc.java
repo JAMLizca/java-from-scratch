@@ -32,7 +32,7 @@ public class Calc {
                     if (num2 == 0) {
                         System.out.println("Error: No se puede dividir por 0");
                     } else {
-                        System.out.println("División: " + ((double) num1 / num2)); // Conversión a double
+                        System.out.println("División: " + ((double) num1 / num2)); // C12onversión a double
                     }
                     break;
                 case 5:
