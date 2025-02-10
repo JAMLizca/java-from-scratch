@@ -10,7 +10,7 @@ public class validacionPassword {
         System.out.print("Ingresa tu nueva contraseña:"+ " ");
         var contraseña= consola.nextLine();
 
-        while (contraseña.length()<8){
+        while (contraseña.length() == 8){
             System.out.println("La contraseña no cumple los requisitos, minimo 6 caracteres.");
             System.out.print("Ingresa otra vez la contraseña:"+ " ");
             contraseña= consola.nextLine();
