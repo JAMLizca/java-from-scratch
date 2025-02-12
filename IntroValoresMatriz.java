@@ -24,6 +24,7 @@ public class IntroValoresMatriz {
             }
         }
         //Iterar los valores de la matriz
+        System.out.println("---------------------------");
 
         for (var ren=0; ren<renglones; ren++){
             for(var col=0; col<colummnas;col++){
