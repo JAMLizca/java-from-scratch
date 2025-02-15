@@ -4,4 +4,5 @@
 clear
 clear.pub
 .vs code
-
+.vscode
+/out
