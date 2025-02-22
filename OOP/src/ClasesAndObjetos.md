@@ -19,7 +19,7 @@ Si la clase es el plano de una casa, un objeto sería una casa real construida a
 ## 📝 Ejemplo en Código  
 Vamos a crear una **clase** llamada `Persona`, y a partir de esta clase, crearemos **objetos** (personas reales) con nombres y apellidos.
 
-### Crear la Clase**
+### Crear la Clase
 ```java
 // Definimos la clase Persona (molde)
 public class Persona {
