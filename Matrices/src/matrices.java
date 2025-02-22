@@ -1,3 +1,5 @@
+package logica.Matrices.src;
+
 public class matrices {
     public static void main(String[] args) {
 

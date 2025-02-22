@@ -1,3 +1,5 @@
+package logica.Matrices.src;
+
 import java.util.Scanner;
 public class IntroValoresMatriz {
     public static void main(String[] args) {

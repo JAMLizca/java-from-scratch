@@ -18,7 +18,7 @@ public class saludAndFitness {
         System.out.println("Cuantos pasas has caminado?");
         var pasos = Integer.parseInt(consola.nextLine());
 
-        var metaAlcanzada = (pasos>=METAS_PASOS_DIARIOS)?true:false;
+        var metaAlcanzda = (pasos>=METAS_PASOS_DIARIOS)?true:false;
 
         //calcular calorias quemadas
         var caloriasQuemadas = pasos*CALORIAS_POR_PASO;
