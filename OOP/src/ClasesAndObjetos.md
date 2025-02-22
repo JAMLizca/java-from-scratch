@@ -1,6 +1,6 @@
-# 🖥️  Clases y Objetos en Java 🚀  
+# 🖥️  Clases y Objeto 🚀  
 
-## 📌 ¿Qué es una clase en Java?  
+## 📌 ¿Qué es una clase?  
 Una **clase** en Java es como un molde o plantilla que define cómo serán los objetos. Dentro de una clase, podemos definir atributos (datos) y métodos (acciones que puede realizar un objeto).  
 
 ### 📌 Ejemplo del mundo real  
@@ -8,7 +8,7 @@ Imagina que una **clase** es un plano de construcción de una casa. En este plan
 
 ---
 
-## 📌 ¿Qué es un objeto en Java?  
+## 📌 ¿Qué es un objeto?  
 Un **objeto** es una instancia de una clase, es decir, algo **real** que se ha creado a partir de la plantilla (clase).  
 
 ### 📌 Ejemplo del mundo real  
