@@ -58,6 +58,7 @@ public class Main {
     }
 }
 ```
+---
 ✅ **Persona persona1 = new Persona();** → Se crea un objeto de la clase Persona.
 
 ✅ **persona1.nombre = "Juan";** → Se asigna un nombre al objeto persona1.
