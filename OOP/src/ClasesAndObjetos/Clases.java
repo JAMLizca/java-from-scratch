@@ -1,4 +1,4 @@
-package logica.OOP.src;
+package ClasesAndObjetos;
  // Paquete donde se encuentra la clase
 
 public class Clases {
