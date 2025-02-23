@@ -167,7 +167,8 @@ class Circulo extends Figura {
 
 ---  
 
-## 🚀 Conclusión  
-La **POO** nos ayuda a organizar mejor el código, haciéndolo más fácil de entender, reutilizar y mantener. Es como construir un mundo digital donde los objetos tienen propiedades y pueden interactuar entre sí. ¡Ahora estás listo para empezar a programar con POO en Java! 💡
+## Con esto de doy un pequeño abre bocas al mundo de Java
+
+**✅  No olvides siempre practicar.**
 
 
