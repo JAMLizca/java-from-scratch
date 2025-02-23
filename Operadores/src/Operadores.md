@@ -5,9 +5,13 @@
 Son operadores binarios que realizan operaciones matemáticas:
     
 **Suma (+)**: Realiza la suma de dos operandos.
+
 **Resta (-)**:Realiza la resta entre dos operandos. 
+
 **Multiplicación (*)**: Multiplica dos operandos.
+
 **División (/)**: Divide el primer operando por el segundo. Si ambos operandos son enteros, el resultado es un número entero (truncado).
+
 **Modulo (%):** Devuelve el residuo de la división entre dos operandos.
     
 ```java
@@ -28,9 +32,13 @@ int res = a % b; // 9 % 4 = 1 (residuo de la división)
 Los operadores de asignación permiten asignar valores a variables. El operador principal es **=**, pero también existen versiones acumulativas como:
 
 **+=**: Suma el valor de la derecha al de la izquierda y lo asigna.
+
 **-=**: Resta el valor de la derecha al de la izquierda y lo asigna.
+
 **=**: Multiplica el valor de la derecha por el de la izquierda y lo asigna.
+
 **/=**: Divide el valor de la izquierda por el de la derecha y lo asigna.
+
 **%=**: Asigna el residuo de la división entre la izquierda y la derecha.
 
 **Ejemplo:**
@@ -60,7 +68,9 @@ a %= 3; // a = a % 3; ahora a = 1
 
 Los operadores `++` y `--` son utilizados para incrementar o decrementar una variable en 1. Pueden usarse de dos maneras:
 
+
 - **Preincremento / Predecremento:** Primero modifica la variable y luego utiliza el valor modificado.
+
 - **Postincremento / Postdecremento:** Primero utiliza la variable en su estado actual y luego la modifica.
 
 
