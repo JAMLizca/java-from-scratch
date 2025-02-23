@@ -15,7 +15,8 @@ Son operadores binarios que realizan operaciones matemáticas:
 **Modulo (%):** Devuelve el residuo de la división entre dos operandos.
     
 ```java
-    Ejemplo:
+Ejemplo:
+
 int a = 9;
 int b = 4;
 int suma = a + b; // 9 + 4 = 13
@@ -44,7 +45,7 @@ Los operadores de asignación permiten asignar valores a variables. El operador 
 **Ejemplo:**
 
 ```java
-   int a = 5;
+int a = 5;
 a += 3; // a = a + 3; ahora a = 8
 a -= 2; // a = a - 2; ahora a = 6
 a *= 2; // a = a * 2; ahora a = 12
@@ -55,6 +56,7 @@ a %= 3; // a = a % 3; ahora a = 1
 
 ## Tabla de Operadores de Asignación
 
+
     | Operador | Expresión | Descripción |
 |----------|-----------|-------------|
 | =  | a = b  | Asigna el valor de `b` a `a`. |
@@ -63,6 +65,7 @@ a %= 3; // a = a % 3; ahora a = 1
 | *= | a *= b | Multiplica `a` por `b` y asigna el resultado a `a`. |
 | /= | a /= b | Divide `a` entre `b` y asigna el resultado a `a`. |
 | %= | a %= b | Asigna el residuo de la división entre `a` y `b` a `a`. |
+
 
 # Operadores de Incremento y Decremento 
 
