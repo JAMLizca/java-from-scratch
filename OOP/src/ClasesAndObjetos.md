@@ -1,4 +1,15 @@
-# 🖥️  Clases y Objeto 🚀  
+
+
+
+# 🖥️ Clases y Objeto 🚀
+
+<div align="center">
+    <img src="img.png" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+</div>
+
+
+
+
 
 ## 📌 ¿Qué es una clase?  
 Una **clase** en Java es como un molde o plantilla que define cómo serán los objetos. Dentro de una clase, podemos definir atributos (datos) y métodos (acciones que puede realizar un objeto).  
