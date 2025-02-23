@@ -57,15 +57,16 @@ a %= 3; // a = a % 3; ahora a = 1
 ## Tabla de Operadores de Asignación
 
 
-    | Operador | Expresión | Descripción |
+| Operador | Expresión | Descripción |
 |----------|-----------|-------------|
-| =  | a = b  | Asigna el valor de `b` a `a`. |
-| += | a += b | Suma `b` a `a` y asigna el resultado a `a`. |
-| -= | a -= b | Resta `b` a `a` y asigna el resultado a `a`. |
-| *= | a *= b | Multiplica `a` por `b` y asigna el resultado a `a`. |
-| /= | a /= b | Divide `a` entre `b` y asigna el resultado a `a`. |
-| %= | a %= b | Asigna el residuo de la división entre `a` y `b` a `a`. |
+| `=`  | `a = b`  | Asigna el valor de `b` a `a`. |
+| `+=` | `a += b` | Suma `b` a `a` y asigna el resultado a `a`. |
+| `-=` | `a -= b` | Resta `b` a `a` y asigna el resultado a `a`. |
+| `*=` | `a *= b` | Multiplica `a` por `b` y asigna el resultado a `a`. |
+| `/=` | `a /= b` | Divide `a` entre `b` y asigna el resultado a `a`. |
+| `%=` | `a %= b` | Asigna el residuo de la división entre `a` y `b` a `a`. |
 
+---
 
 # Operadores de Incremento y Decremento 
 
@@ -80,7 +81,7 @@ Los operadores `++` y `--` son utilizados para incrementar o decrementar una var
 **Ejemplo Práctico**
 
 ```java
-Considera el siguiente código en Java:
+Considera el siguiente código:
 
 // Declaración inicial
 int x = 5;
