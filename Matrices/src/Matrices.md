@@ -20,11 +20,49 @@ int[][] matriz = new int[3][3];
 ```
 Esto crea una tabla de 3x3 donde cada posición contiene el valor 0 por defecto.
 
+-----
+
+## 🔹 Índices en matrices y cómo se  acceden a ellos
+
+Cuando trabajamos con **matrices**, cada dato se encuentra en una **posición específica** dentro de una **tabla**. Esta posición se define por **dos índices**:
+
+1. **Índice de fila** → Indica en qué fila está el dato.
+2. **Índice de columna** → Indica en qué columna está el dato.
+
 ---
+
+## 🟢 Ejemplo básico de índices en la matriz
+
+Imagina que tenemos la siguiente matriz de 3x3:
+
+| Índice de fila ↓ / Índice de columna → | **0** | **1** | **2** |
+|----------------------------------|----|----|----|
+| **0**  | 10 | 20 | 30 |
+| **1**  | 40 | 50 | 60 |
+| **2**  | 70 | 80 | 90 |
+
+Cada número tiene su **ubicación específica** dentro de la matriz:
+- `10` está en la posición `[0][0]`
+- `50` está en la posición `[1][1]`
+- `90` está en la posición `[2][2]`
+
+---
+
+## 🟢 Cómo acceder a los índices
+
+### **Declarar una matriz con valores predefinidos**
+```java
+int[][] matriz = {
+        {10, 20, 30}, // Fila 0
+        {40, 50, 60}, // Fila 1
+        {70, 80, 90}  // Fila 2
+};
+```
+        
 ## 📌 Cómo Acceder a los Datos de una Matriz
 Cada posición dentro de una matriz tiene un índice basado en filas y columnas, que empieza desde 0.
 ```java
-matriz[fila][columna] = valor;
+matriz [fila][columna] = valor;
 ```
 **💡 Ejemplo:**
 Si queremos asignar el número 5 a la primera posición (fila 0, columna 0):
@@ -102,6 +140,7 @@ public class MatrizAleatoria {
 }
 
 ```
+
 ---
 ✔️ **Las matrices** permiten almacenar datos en una estructura de filas y columnas.
 

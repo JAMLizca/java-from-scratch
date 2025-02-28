@@ -148,6 +148,8 @@ public class ArregloOrdenado {
 ```
 ---
 
+
+
 ✔️ Los arreglos permiten almacenar y manipular múltiples valores del mismo tipo.
 
 ✔️ Se accede a cada elemento con su **índice**, que empieza en **0**.
