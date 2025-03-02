@@ -212,6 +212,6 @@ Se imprimen las estadísticas finales:
 
     -Temperatura mínima registrada.
 
-
+- Algunas cosas ustede ya las debe saber :v
 
 
