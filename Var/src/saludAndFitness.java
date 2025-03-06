@@ -1,4 +1,4 @@
-package logica;
+package logica.Var.src;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class saludAndFitness {
                 Hola %s
                 Has caminado %d pasos y has conseguido %s calorias quemadas.
                 
-                """,nombre,pasos,metaAlcanzada? "la meta": caloriasQuemadas);
+                """,nombre,pasos,metaAlcanzda? "la meta": caloriasQuemadas);
 
 
     }

@@ -1,3 +1,5 @@
+package logica.Arreglos.src.Arreglos.EjerArreTemperatura;
+
 import java.util.Random; // Importa la clase Random para generar números aleatorios
 
 public class Temperaturas2025 {
