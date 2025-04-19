@@ -1,4 +1,4 @@
-package ClasesAndObjetos;
+package logica.OOP.src.ClasesAndObjetos;
  // Paquete donde se encuentra la clase
 
 public class Clases {
@@ -27,7 +27,7 @@ public class Clases {
         System.out.println("Creación de clase de persona");  // Mensaje de inicio
 
         // Creación de un objeto de la clase "Clases"
-        var objeto1 = new Clases();
+        var objeto1 = new Clases(); //Instanciar
 
         // Asignación de valores a los atributos del objeto
         objeto1.nombre = "Juan";
@@ -37,5 +37,6 @@ public class Clases {
         objeto1.persona();
     }
 }
+//Es recomendable hacer nuestras clases en diferentes archivos, y no en uno solo.
 
 
