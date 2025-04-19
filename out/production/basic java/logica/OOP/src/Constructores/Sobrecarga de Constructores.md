@@ -78,16 +78,42 @@ public Estudiante(String nombre, String carrera) {
 this(nombre, carrera, 3.5); // Reutiliza el constructor con 3 parámetros
 }
 ```
----
-## Ejemplo
 
-#  Ejemplo de Sobrecarga de Constructores en la Clase `Aritmetica`
+
+## 💥 Errores comunes a evitar
+
+| Error | Descripción |
+|------|-------------|
+| ❌ No diferenciar bien los parámetros | Los constructores sobrecargados deben diferenciarse por **número o tipo** de parámetros. |
+| ❌ No usar `this(...)` cuando es necesario | `this()` ayuda a **reutilizar lógica entre constructores**. |
+| ❌ No inicializar correctamente los atributos | Asegúrate de asignar valores a todos los atributos importantes. |
+
+---
+
+## 🧠 Reglas clave para sobrecarga
+
+1. Puedes tener **tantos constructores como quieras**, siempre que tengan **diferentes firmas**.
+2. Puedes usar `this()` dentro de un constructor para **llamar a otro**.
+3. Los constructores **no retornan valores**, ni siquiera `void`.
+
+---
+
+##  Buenas prácticas
+
+- Siempre ofrece un **constructor vacío** si tu clase se usará en frameworks o librerías externas.
+- Usa `this(...)` para evitar duplicación de código.
+- Valida los datos si es necesario dentro del constructor.
+
+---
+# Ejemplo
+
+## Ejemplo de Sobrecarga de Constructores en la Clase `Aritmetica`
 
 A continuación se muestra una versión mejorada de tu clase `Aritmetica`, usando **constructores sobrecargados**, documentados y fáciles de entender.
 
 ---
 
-## 🧪 Código Java con sobrecarga de constructores
+# 🧪 Código Java con sobrecarga de constructores
 
 ```java
 package logica.OOP.src.ClasesAndObjetos;
@@ -155,6 +181,42 @@ public class Aritmetica {
     }
 }
 ```
+
+---
+## 🧪 Ejercicios prácticos
+
+### 🧩 Ejercicio 1:
+Crea una clase `Libro` con los siguientes constructores:
+- Uno vacío que diga `"Libro sin título"`.
+- Uno que reciba solo el título.
+- Uno que reciba título, autor y número de páginas.
+
+### 🧩 Ejercicio 2:
+Crea una clase `Empleado` con:
+- Nombre y salario como atributos.
+- Constructor vacío (valores por defecto).
+- Constructor con nombre.
+- Constructor con nombre y salario.
+- Método para mostrar información del empleado.
+
+---
+## 🌐 Recursos gratuitos recomendados
+
+- 📘 **Documentación oficial de Java (Oracle):**  
+  https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html
+
+- 🎓 **Curso gratuito de Java desde cero (YouTube):**  
+  [Programación con Java - Píldoras Informáticas](https://www.youtube.com/playlist?list=PLU8oAlHdN5BmpIQGDSHo5e1r4ZYWQ8m4B)
+
+- 💻 **Práctica online con ejercicios Java:**  
+  https://www.w3schools.com/java/tryjava.asp
+
+- 📚 **Libro recomendado:**  
+  *“Java: A Beginner's Guide”* de Herbert Schildt (ideal para aprender bien los conceptos de OOP y constructores).
+
+---
+
+
 
 
 

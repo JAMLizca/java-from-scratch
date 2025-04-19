@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="56fc706f-774f-42e5-a67a-3a1fa8bd8b28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/POO2025/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/Arreglos/src/Arreglos/ArreglosPractica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic java/logica/Arreglos/src/Arreglos/ArreglosPractica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/POO2025/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JAMLizca&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:JAMLizca/java-from-scratch.git&quot;,
+    &quot;accountId&quot;: &quot;f9456706-e206-4853-ac44-34b1ff59a0f5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2sSpadAuC9pQTK2nI6cP2CMsAmE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArreglosPractica.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Clases.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Correcion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EjemploPrecioTienda.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Finlaa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FuncionSumar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntroValoresMatriz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MejoraSuper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NuevaMejora.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumerosAleatorio.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OtraVez.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OtroEjemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RetoCakifiArreglos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumaDiadonalMatriz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Temperaturas2025.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arreglos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cicloFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cicloWhile.executor&quot;: &quot;Run&quot;,
+    &quot;Application.dibujarTriangulo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.introducirValoresAUnArreglo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.juegoDeAdivinanza.executor&quot;: &quot;Run&quot;,
+    &quot;Application.matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.menuIterativo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numImpares.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numInversos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numParCicloFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.retoCajeroAutomitc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.saludAndFitness.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sintaxisSimplificadaDeArreglos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sumaAcumulativaCicloFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.validacionPassword.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alejandro18/Programación/Java/java-from-scratch&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Aritmetica">
+    <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.ClasesAndObjetos.Aritmetica" />
+      <module name="basic java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logica.OOP.src.ClasesAndObjetos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Clases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.ClasesAndObjetos.Clases" />
+      <module name="basic java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logica.OOP.src.ClasesAndObjetos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploPrecioTienda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.EjemploPrecioTienda" />
+      <module name="basic java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NuevaMejora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.NuevaMejora" />
+      <module name="basic java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtraVez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.OtraVez" />
+      <module name="basic java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aritmetica" />
+        <item itemvalue="Application.Clases" />
+        <item itemvalue="Application.EjemploPrecioTienda" />
+        <item itemvalue="Application.NuevaMejora" />
+        <item itemvalue="Application.OtraVez" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56fc706f-774f-42e5-a67a-3a1fa8bd8b28" name="Changes" comment="" />
+      <created>1738458895167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738458895167</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Matrices/src/EjemploPrecioTienda.java</url>
+          <line>12</line>
+          <properties class="logica.Matrices.src.EjemploPrecioTienda">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Matrices/src/OtroEjemplo.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Matrices/src/OtraVez.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Matrices/src/EjemploPrecioTienda.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
