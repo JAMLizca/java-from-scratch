@@ -107,7 +107,7 @@ this(nombre, carrera, 3.5); // Reutiliza el constructor con 3 parámetros
 ---
 # Ejemplo
 
-## Ejemplo de Sobrecarga de Constructores en la Clase `Aritmetica`
+## Ejemplo de Sobrecarga de Constructores en la Clase Aritmetica
 
 A continuación se muestra una versión mejorada de tu clase `Aritmetica`, usando **constructores sobrecargados**, documentados y fáciles de entender.
 
