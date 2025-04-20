@@ -101,6 +101,44 @@ public class Estudiante extends Persona {
 | `@Override` | Redefine un método heredado para adaptarlo a la subclase.                    |
 | Herencia    | Reutiliza código, define jerarquías y mejora el diseño del programa.         |
 
+---
+##  ¿Qué es `@Override`?
+
+La anotación `@Override` se utiliza para **sobrescribir un método heredado** de una clase padre en una clase hija.  
+Esto permite **modificar el comportamiento de un método** sin cambiar el código original de la clase base.
+
+✅ Mejora la legibilidad.  
+✅ Ayuda al compilador a detectar errores.  
+✅ Refuerza las buenas prácticas de la Programación Orientada a Objetos (POO).
+
+---
+
+## 🧠 Ejemplo 
+
+```java
+class Animal {
+    public void sonido() {
+        System.out.println("El animal hace un sonido");
+    }
+}
+
+class Perro extends Animal {
+    @Override
+    public void sonido() {
+        System.out.println("El perro ladra");
+    }
+}
+```
+```java
+public class Test {
+public static void main(String[] args) {
+Animal miPerro = new Perro();
+miPerro.sonido(); // Imprime: El perro ladra
+}
+}
+```
+
+---
 ## 📚 Recursos adicionales
 
 ### 🌐 Documentación y tutoriales
@@ -113,4 +151,17 @@ public class Estudiante extends Persona {
 
 - 🎥 [Herencia en Java (YouTube - Píldoras Informáticas)](https://www.youtube.com/watch?v=I3zVCzxPj0o)
 - 🎥 [Curso Java - Herencia y Polimorfismo (JavaFacilito)](https://www.youtube.com/watch?v=2ISD8KQ7QvI)
+----
+## 🌐 Documentación y tutoriales
+
+- 📘 [Documentación oficial de Oracle: Overriding Methods](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
+- 🧠 [W3Schools - Java Method Overriding](https://www.w3schools.com/java/java_override.asp)
+- 📗 [Programiz - Java Method Overriding](https://www.programiz.com/java-programming/method-overriding)
+
+## 🎥 Videos recomendados
+
+- 🎥 [Sobrescritura de métodos en Java - Píldoras Informáticas](https://www.youtube.com/watch?v=WjWkR5VZ8SQ)
+- 🎥 [Java @Override explicado - Código Mentores](https://www.youtube.com/watch?v=XlTzAoyQqDY)
+- 🎥 [Métodos sobreescritos en Java - Develoteca](https://www.youtube.com/watch?v=bfAjhzSkauY)
+
 
