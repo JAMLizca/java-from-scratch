@@ -17,7 +17,10 @@ class perro extends  Animal{
     //sobreescritura del metodo dormir
     @Override
     protected void dormir(){
-        System.out.println("Duermo 15 horas al dia");
+        System.out.println("Duermo 15 horas al dia"); //clase hija
+        //llamar el metodo definido que se a ocultado
+        System.out.println("Metodo de la clase padre");
+        super.dormir(); //comportamientos clase padre
     }
 
 }
