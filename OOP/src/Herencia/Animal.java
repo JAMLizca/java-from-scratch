@@ -14,9 +14,10 @@ class perro extends  Animal{
     public void hacerSonido() {
         System.out.println("Puedo ladrar");
     }
-    //sobreescritura de un metodo
+    //sobreescritura del metodo dormir
+    @Override
     protected void dormir(){
-
+        System.out.println("Duermo 15 horas al dia");
     }
 
 }
