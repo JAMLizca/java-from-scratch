@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56fc706f-774f-42e5-a67a-3a1fa8bd8b28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/POO2025/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/Arreglos/src/Arreglos/ArreglosPractica.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic java/logica/Arreglos/src/Arreglos/ArreglosPractica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/POO2025/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/src/Polimorfismo/Polimorfismo.md" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/src/Polimorfismo/Polimorfismo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Aritmetica.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArreglosPractica.executor&quot;: &quot;Run&quot;,
     &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
     &quot;Application.Clases.executor&quot;: &quot;Run&quot;,
@@ -59,6 +58,7 @@
     &quot;Application.NumerosAleatorio.executor&quot;: &quot;Run&quot;,
     &quot;Application.OtraVez.executor&quot;: &quot;Run&quot;,
     &quot;Application.OtroEjemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PruebaPersona.executor&quot;: &quot;Run&quot;,
     &quot;Application.RetoCakifiArreglos.executor&quot;: &quot;Run&quot;,
     &quot;Application.SumaDiadonalMatriz.executor&quot;: &quot;Run&quot;,
     &quot;Application.Temperaturas2025.executor&quot;: &quot;Run&quot;,
@@ -68,11 +68,13 @@
     &quot;Application.dibujarTriangulo.executor&quot;: &quot;Run&quot;,
     &quot;Application.introducirValoresAUnArreglo.executor&quot;: &quot;Run&quot;,
     &quot;Application.juegoDeAdivinanza.executor&quot;: &quot;Run&quot;,
+    &quot;Application.logica.OOP.src.Constructores.Aritmetica.executor&quot;: &quot;Run&quot;,
     &quot;Application.matrices.executor&quot;: &quot;Run&quot;,
     &quot;Application.menuIterativo.executor&quot;: &quot;Run&quot;,
     &quot;Application.numImpares.executor&quot;: &quot;Run&quot;,
     &quot;Application.numInversos.executor&quot;: &quot;Run&quot;,
     &quot;Application.numParCicloFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pruebaAnimal.executor&quot;: &quot;Run&quot;,
     &quot;Application.retoCajeroAutomitc.executor&quot;: &quot;Run&quot;,
     &quot;Application.saludAndFitness.executor&quot;: &quot;Run&quot;,
     &quot;Application.sintaxisSimplificadaDeArreglos.executor&quot;: &quot;Run&quot;,
@@ -80,7 +82,7 @@
     &quot;Application.validacionPassword.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/alejandro18/Programación/Java/java-from-scratch&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
@@ -89,7 +91,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Aritmetica">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OOP/src/Constructores" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Empresa">
     <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="logica.OOP.src.ClasesAndObjetos.Aritmetica" />
       <module name="basic java" />
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clases" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.ClasesAndObjetos.Clases" />
+    <configuration name="Empresa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Polimorfismo.Empresa" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.ClasesAndObjetos.*" />
+          <option name="PATTERN" value="logica.OOP.src.Polimorfismo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploPrecioTienda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.EjemploPrecioTienda" />
+    <configuration name="PruebaPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Encapsulamiento.EjemploPP.PruebaPersona" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="PATTERN" value="logica.OOP.src.Encapsulamiento.EjemploPP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NuevaMejora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.NuevaMejora" />
+    <configuration name="logica.OOP.src.Constructores.Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Constructores.Aritmetica" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="PATTERN" value="logica.OOP.src.Constructores.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtraVez" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.Matrices.src.OtraVez" />
+    <configuration name="pruebaAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Herencia.pruebaAnimal" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.Matrices.src.*" />
+          <option name="PATTERN" value="logica.OOP.src.Herencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Empresa" />
+        <item itemvalue="Application.pruebaAnimal" />
+        <item itemvalue="Application.PruebaPersona" />
         <item itemvalue="Application.Aritmetica" />
-        <item itemvalue="Application.Clases" />
-        <item itemvalue="Application.EjemploPrecioTienda" />
-        <item itemvalue="Application.NuevaMejora" />
-        <item itemvalue="Application.OtraVez" />
+        <item itemvalue="Application.logica.OOP.src.Constructores.Aritmetica" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +188,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
