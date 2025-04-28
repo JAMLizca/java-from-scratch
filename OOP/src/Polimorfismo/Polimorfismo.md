@@ -69,7 +69,7 @@ public class PruebaPolimorfismo {
 - ---
 ## 🧪 Ejercicio 
 
-Crea una clase Empleado con un método calcularSalario().
+### Crea una clase Empleado con un método calcularSalario().
 Luego crea clases Gerente, Desarrollador y Becario, que sobrescriban ese método con lógica diferente.
 Prueba el polimorfismo usando un arreglo de tipo Empleado y recorrelo llamando calcularSalario().
 ----
