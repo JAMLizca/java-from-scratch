@@ -6,11 +6,12 @@ public class ArgumentosVariables {
         variosParametros("yo",12,22,22);
     }
 
-    static void variosParametros(String nombre, int edad.. numeros) {
+    static void variosParametros(String nombre, int... numeros) {
+        System.out.println("Nombre: "+nombre);
+        imprimirNumeros(numeros);
     }
-
     //Metodo
-//static void imprimirNumeros(int i, int i1, int i2, int i3, int i4) {
+    //static void imprimirNumeros(int i, int i1, int i2, int i3, int i4) {
     //lo que hace el int... numeros es que recibe un numero variable de argumentos, crea un tipo de arreglo
     static void imprimirNumeros(int... numeros) {
         for (var i=0; i<numeros.length; i++){
