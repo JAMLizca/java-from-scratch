@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fc706f-774f-42e5-a67a-3a1fa8bd8b28" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic java/logica/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basic java/logica/OOP/src/Polimorfismo/Empresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic java/logica/OOP/src/Polimorfismo/Empresa.class" afterDir="false" />
-    </list>
+    <list default="true" id="56fc706f-774f-42e5-a67a-3a1fa8bd8b28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +42,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.ArgumentosVariables.executor&quot;: &quot;Run&quot;,
     &quot;Application.Aritmetica.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArreglosPractica.executor&quot;: &quot;Run&quot;,
     &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
@@ -99,13 +97,13 @@
       <recent name="$PROJECT_DIR$/OOP/src/Constructores" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PruebaVentas">
-    <configuration name="Aritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.ClasesAndObjetos.Aritmetica" />
+  <component name="RunManager" selected="Application.For_Each">
+    <configuration name="ArgumentosVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Argumentos_Variables.ArgumentosVariables" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.ClasesAndObjetos.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.Argumentos_Variables.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Encapsulamiento.EjemploPP.PruebaPersona" />
+    <configuration name="For_Each" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.For_Each.For_Each" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.Encapsulamiento.EjemploPP.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.For_Each.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.For_Each" />
+        <item itemvalue="Application.ArgumentosVariables" />
         <item itemvalue="Application.PruebaVentas" />
         <item itemvalue="Application.Empresa" />
         <item itemvalue="Application.pruebaAnimal" />
-        <item itemvalue="Application.PruebaPersona" />
-        <item itemvalue="Application.Aritmetica" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +238,11 @@
           <url>file://$PROJECT_DIR$/OOP/src/Polimorfismo/Empresa.java</url>
           <line>19</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema_Avanzados/Argumentos_Variables/ArgumentosVariables.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
