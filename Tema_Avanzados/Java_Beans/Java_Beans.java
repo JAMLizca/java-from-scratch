@@ -10,8 +10,6 @@ public class Java_Beans {
         System.out.println("Persona = "+ persona);
         System.out.println("Nombre = "+ persona.getNombre());
         System.out.println("Apellido = "+ persona.getApellido());
-
-
     }
 }
 

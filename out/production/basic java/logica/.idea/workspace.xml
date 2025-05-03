@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,11 +47,13 @@
     &quot;Application.Aritmetica.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArreglosPractica.executor&quot;: &quot;Run&quot;,
     &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Clase_Abstracta.executor&quot;: &quot;Run&quot;,
     &quot;Application.Clases.executor&quot;: &quot;Run&quot;,
     &quot;Application.Correcion.executor&quot;: &quot;Run&quot;,
     &quot;Application.EjemploPrecioTienda.executor&quot;: &quot;Run&quot;,
     &quot;Application.Empresa.executor&quot;: &quot;Run&quot;,
     &quot;Application.Finlaa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.For_Each.executor&quot;: &quot;Run&quot;,
     &quot;Application.FuncionSumar.executor&quot;: &quot;Run&quot;,
     &quot;Application.IntroValoresMatriz.executor&quot;: &quot;Run&quot;,
     &quot;Application.MejoraSuper.executor&quot;: &quot;Run&quot;,
@@ -58,7 +61,9 @@
     &quot;Application.NumerosAleatorio.executor&quot;: &quot;Run&quot;,
     &quot;Application.OtraVez.executor&quot;: &quot;Run&quot;,
     &quot;Application.OtroEjemplo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PruebaFrances.executor&quot;: &quot;Run&quot;,
     &quot;Application.PruebaPersona.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PruebaTraductor.executor&quot;: &quot;Run&quot;,
     &quot;Application.PruebaVentas.executor&quot;: &quot;Run&quot;,
     &quot;Application.RetoCakifiArreglos.executor&quot;: &quot;Run&quot;,
     &quot;Application.SumaDiadonalMatriz.executor&quot;: &quot;Run&quot;,
@@ -97,13 +102,13 @@
       <recent name="$PROJECT_DIR$/OOP/src/Constructores" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.For_Each">
-    <configuration name="ArgumentosVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Argumentos_Variables.ArgumentosVariables" />
+  <component name="RunManager" selected="Application.Exepciones">
+    <configuration name="Clase_Abstracta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Clases_Abstractas.Clase_Abstracta" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.Tema_Avanzados.Argumentos_Variables.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.Clases_Abstractas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Empresa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Polimorfismo.Empresa" />
+    <configuration name="Exepciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Exepciones.Exepciones" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.Polimorfismo.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.Exepciones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PruebaVentas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Ejercicios.Ventas.PruebaVentas" />
+    <configuration name="PruebaFrances" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Interfaces.PruebaFrances" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.Ejercicios.Ventas.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pruebaAnimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="logica.OOP.src.Herencia.pruebaAnimal" />
+    <configuration name="PruebaTraductor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logica.Tema_Avanzados.Interfaces.PruebaTraductor" />
       <module name="basic java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="logica.OOP.src.Herencia.*" />
+          <option name="PATTERN" value="logica.Tema_Avanzados.Interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exepciones" />
+        <item itemvalue="Application.PruebaFrances" />
+        <item itemvalue="Application.PruebaTraductor" />
+        <item itemvalue="Application.Clase_Abstracta" />
         <item itemvalue="Application.For_Each" />
-        <item itemvalue="Application.ArgumentosVariables" />
-        <item itemvalue="Application.PruebaVentas" />
-        <item itemvalue="Application.Empresa" />
-        <item itemvalue="Application.pruebaAnimal" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +248,11 @@
           <url>file://$PROJECT_DIR$/Tema_Avanzados/Argumentos_Variables/ArgumentosVariables.java</url>
           <line>2</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tema_Avanzados/Interfaces/Traductor.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
