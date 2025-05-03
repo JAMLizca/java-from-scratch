@@ -1,5 +1,5 @@
 package logica.Tema_Avanzados.Interfaces;
 
-public class Interfaces {
+public interface Interfaces {
     
 }
