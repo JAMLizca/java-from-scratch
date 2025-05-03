@@ -7,6 +7,8 @@ public class Clase_Abstracta {
         // Podemos crear un objeto de la clase hija y a la vez aplicamos polimorfismo
         FiguraGeometrica figuraGeometrica = new Rectangulo(); // Aplicamos polimorfismo
         figuraGeometrica.dibujar();
+        FiguraGeometrica figuraGeometrica1= new Circulo();
+        figuraGeometrica1.dibujar();
     }
 
     // Clase abstracta
@@ -21,6 +23,12 @@ public class Clase_Abstracta {
         @Override
         public void dibujar() {
             System.out.println("Dibujar rectángulo");
+        }
+    }
+    static class  Circulo extends FiguraGeometrica {
+        @Override
+        public void dibujar() {
+            System.out.println("Dibujar circulo");
         }
     }
 }
