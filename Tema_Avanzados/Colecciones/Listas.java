@@ -1,9 +1,10 @@
 package logica.Tema_Avanzados.Colecciones;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class Listas{
+public class Listas {
     public static void main(String[] args) {
         //List miLista = new ArrayList();
         //Manejo de datos generics
@@ -25,6 +26,9 @@ public class Listas{
 
         //Metodos de referencia
         miLista.forEach(System.out::println);
-
+        //Otra forma de crear una lista
+        List<String> nombres = Arrays.asList("JUan","pepe");
+        nombres.forEach(System.out::println);
     }
 }
+
