@@ -20,8 +20,8 @@ public class Listas{
 //            System.out.println(">" + dia + "<");
 //        }
 
-        //Funciones lamda (funcion anonima de un codigo muy compacto) programacion funcional
-        miLista.forEach(dia -> System.out.println(">" + dia + "<"));
+//        Funciones lamda (funcion anonima de un codigo muy compacto) programacion funcional
+//        miLista.forEach(dia -> System.out.println(">" + dia + "<"));
 
         //Metodos de referencia
         miLista.forEach(System.out::println);
