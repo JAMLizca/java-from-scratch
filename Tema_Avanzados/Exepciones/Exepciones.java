@@ -10,6 +10,8 @@ public class Exepciones {
         }catch (Exception e){
             System.out.println("Ocurrio un error"+" "+
              e);
+        }finally {
+            System.out.println("Se reviso la division");
         }
 
         /*
