@@ -12,5 +12,9 @@ public class Sets {
         conjunto.add("Mundo");
         System.out.println(conjunto);
         conjunto.forEach(System.out::println);
+
+        //Remover elementos
+        conjunto.remove("Mundo");
+        System.out.println(conjunto);
     }
 }
