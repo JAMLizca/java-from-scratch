@@ -1,4 +1,4 @@
-package logica.Tema_Avanzados.Colecciones;
+package logica.Tema_Avanzados.Colecciones.Listas;
 
 import java.util.ArrayList;
 import java.util.Arrays;

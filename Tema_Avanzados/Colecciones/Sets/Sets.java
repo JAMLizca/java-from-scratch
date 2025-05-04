@@ -1,4 +1,4 @@
-package logica.Tema_Avanzados.Colecciones;
+package logica.Tema_Avanzados.Colecciones.Sets;
 
 import java.util.TreeSet;
 import java.util.Set;
