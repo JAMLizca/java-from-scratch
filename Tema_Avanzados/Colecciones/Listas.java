@@ -27,7 +27,8 @@ public class Listas {
         //Metodos de referencia
         miLista.forEach(System.out::println);
         //Otra forma de crear una lista
-        List<String> nombres = Arrays.asList("JUan","pepe");
+        System.out.println("---Otra forma de crear una lista---");
+        List<String> nombres = Arrays.asList("Juan","pepe");
         nombres.forEach(System.out::println);
     }
 }
