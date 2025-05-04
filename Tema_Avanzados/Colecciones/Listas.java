@@ -16,12 +16,15 @@ public class Listas{
         miLista.add("Sabado");
         miLista.add("Domingo");
 
-        for (var dia:miLista){
-            System.out.println(">" + dia + "<");
-        }
+//        for (var dia:miLista){
+//            System.out.println(">" + dia + "<");
+//        }
 
         //Funciones lamda (funcion anonima de un codigo muy compacto) programacion funcional
         miLista.forEach(dia -> System.out.println(">" + dia + "<"));
+
+        //Metodos de referencia
+        miLista.forEach(System.out::println);
 
     }
 }
