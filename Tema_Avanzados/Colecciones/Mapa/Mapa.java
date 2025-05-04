@@ -14,12 +14,16 @@ public class Mapa {
         persona.entrySet().forEach(System.out::println);
         //forma dos
         System.out.println(persona);
-        //forma tres
-        persona.forEach((k,v) -> System.out.println(k + " = " + v));
         System.out.println(" ");
         persona.put("sexo", "Masculino"); //el put es para añadir
         System.out.println("\n Nuevos valores del mapa :");
         persona.entrySet().forEach(System.out::println);
+
+        //Iterar
+        System.out.println("Itereando los elementos del mapa :");
+        persona.forEach((k,v) -> System.out.println(k + " = " + v));
+
+
 
     }
 }
