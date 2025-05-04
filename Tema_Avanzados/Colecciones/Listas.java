@@ -13,6 +13,9 @@ public class Listas{
         miLista.add("Viernes");
         miLista.add("Sabado");
         miLista.add("Domingo");
+        for (var dia:miLista){
+            System.out.println(">" + dia + "<");
+        }
 
     }
 }
