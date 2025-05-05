@@ -5,11 +5,13 @@ public class Snacks {
     private int idSnack;
     private String nombre;
     private int precio;
+    private int stock;
 
-    public Snacks(String nombre, int precio) {
+    public Snacks(String nombre, int precio, int stock) {
         this.idSnack = contadorId++;
         this.nombre = nombre;
         this.precio = precio;
+        this.stock = stock;
     }
 
     public int getIdSnack() {
@@ -24,8 +26,18 @@ public class Snacks {
         return precio;
     }
 
+    public int getStock() {
+        return stock;
+    }
+
+    public void disminuirStock() {
+        if (stock > 0) {
+            stock--;
+        }
+    }
+
     @Override
     public String toString() {
-        return "[" + idSnack + "] " + nombre + " - $" + precio;
+        return "[" + idSnack + "] " + nombre + " - $" + precio + " (Stock: " + stock + ")";
     }
 }

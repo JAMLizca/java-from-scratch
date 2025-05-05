@@ -4,15 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Snack {
-    private static final List<Snacks> snacks;
+    private static final List<Snacks> snacks = new ArrayList<>();
 
     static {
-        snacks = new ArrayList<>();
-        snacks.add(new Snacks("Papas", 100));
-        snacks.add(new Snacks("Queso", 150));
-        snacks.add(new Snacks("Arroz", 200));
-        snacks.add(new Snacks("Chocolate", 100));
-        snacks.add(new Snacks("Naranja", 100));
+        snacks.add(new Snacks("Papas", 100, 10));
+        snacks.add(new Snacks("Queso", 150, 5));
+        snacks.add(new Snacks("Arroz", 200, 8));
+        snacks.add(new Snacks("Chocolate", 100, 12));
+        snacks.add(new Snacks("Naranja", 100, 4));
     }
 
     public static void mostrarSnacks() {
@@ -23,5 +22,9 @@ public class Snack {
 
     public static List<Snacks> getSnacks() {
         return snacks;
+    }
+
+    public static void agregarSnack(Snacks nuevoSnack) {
+        snacks.add(nuevoSnack);
     }
 }

@@ -32,7 +32,8 @@ public class MaquinaSnacks {
         System.out.println("*** Menú ***");
         System.out.println("1. Comprar snack");
         System.out.println("2. Mostrar ticket");
-        System.out.println("3. Salir");
+        System.out.println("3. Agregar nuevo snack");
+        System.out.println("4. Salir");
         System.out.print("Ingresa una opción: ");
         return Integer.parseInt(consola.nextLine());
     }
@@ -41,7 +42,8 @@ public class MaquinaSnacks {
         switch (opcion) {
             case 1 -> comprarSnack(consola, productos);
             case 2 -> mostrarTicket(productos);
-            case 3 -> {
+            case 3 -> agregarSnack(consola);
+            case 4 -> {
                 System.out.println("Gracias por usar la máquina de snacks.");
                 return true;
             }
@@ -58,8 +60,13 @@ public class MaquinaSnacks {
         boolean snackEncontrado = false;
         for (Snacks snack : Snack.getSnacks()) {
             if (idSnack == snack.getIdSnack()) {
-                productos.add(snack);
-                System.out.println("¡Compraste: " + snack.getNombre() + " por $" + snack.getPrecio() + "!");
+                if (snack.getStock() > 0) {
+                    productos.add(snack);
+                    snack.disminuirStock();
+                    System.out.println("¡Compraste: " + snack.getNombre() + " por $" + snack.getPrecio() + "!");
+                } else {
+                    System.out.println("Lo sentimos, no hay stock disponible de ese snack.");
+                }
                 snackEncontrado = true;
                 break;
             }
@@ -71,6 +78,11 @@ public class MaquinaSnacks {
     }
 
     private static void mostrarTicket(List<Snacks> productos) {
+        if (productos.isEmpty()) {
+            System.out.println("No se ha comprado ningún snack.");
+            return;
+        }
+
         String ticket = "*** Ticket de venta ***";
         double total = 0.0;
         for (Snacks producto : productos) {
@@ -79,5 +91,19 @@ public class MaquinaSnacks {
         }
         ticket += "\nTotal: $" + total;
         System.out.println(ticket);
+    }
+
+    private static void agregarSnack(Scanner consola) {
+        System.out.print("Nombre del snack: ");
+        String nombre = consola.nextLine();
+        System.out.print("Precio del snack: ");
+        int precio = Integer.parseInt(consola.nextLine());
+        System.out.print("Cantidad disponible (stock): ");
+        int stock = Integer.parseInt(consola.nextLine());
+
+        Snacks nuevoSnack = new Snacks(nombre, precio, stock);
+        Snack.agregarSnack(nuevoSnack);
+
+        System.out.println("Snack agregado correctamente: " + nombre + " - $" + precio + " (Stock: " + stock + ")");
     }
 }
