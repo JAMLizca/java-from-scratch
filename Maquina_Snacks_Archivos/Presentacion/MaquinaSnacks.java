@@ -1,4 +1,7 @@
-package logica.Maquina_Snacks_Archivos;
+package logica.Maquina_Snacks_Archivos.Presentacion;
+
+import logica.Maquina_Snacks_Archivos.Snack;
+import logica.Maquina_Snacks_Archivos.Snacks;
 
 import java.util.ArrayList;
 import java.util.List;
