@@ -1,4 +1,4 @@
-package logica.Maquina_Snacks_Archivos;
+package logica.Maquina_Snacks_Archivos.Servicio;
 
 public class Snacks {
     private static int contadorId = 1;
